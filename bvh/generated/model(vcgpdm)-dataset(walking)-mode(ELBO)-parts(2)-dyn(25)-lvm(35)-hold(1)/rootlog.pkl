@@ -1,0 +1,1282 @@
+[2020-09-23 12:56:14,801][INFO] Creating Theano variable pool
+[2020-09-23 12:56:14,802][INFO]  - theano.config.mode: Mode
+[2020-09-23 12:56:14,802][INFO]  - theano.config.optimizer: o4
+[2020-09-23 12:56:14,802][INFO]  - theano.config.floatX: float64
+[2020-09-23 12:56:14,802][INFO]  - theano.config.device: cpu
+[2020-09-23 12:56:14,802][INFO]  - theano.config.openmp: False
+[2020-09-23 12:56:14,802][INFO]  - theano.config.blas.ldflags: -L/home/sib/anaconda3/envs/vcgpdmb/lib -lmkl_rt -lpthread -lm -lm -Wl,-rpath,/home/sib/anaconda3/envs/vcgpdmb/lib
+[2020-09-23 12:56:21,394][INFO] Initial ELBO = -28790.6228765
+[2020-09-23 12:56:23,379][INFO] Initial log-likelihood = -26424.4493726
+[2020-09-23 12:56:25,769][INFO] Saving the latent space plots.
+[2020-09-23 12:56:28,602][DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+[2020-09-23 12:56:28,617][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:28,652][DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=20.0 to DejaVu Sans (u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+[2020-09-23 12:56:28,653][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:28,653][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:29,091][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:29,116][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:29,116][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:29,274][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:29,291][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:29,291][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:29,446][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:29,472][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:29,472][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:29,520][INFO] Saving the latent space plots.
+[2020-09-23 12:56:30,167][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:30,186][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:30,186][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:30,325][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:30,350][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:30,350][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:30,495][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:30,512][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:30,512][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:30,653][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:30,679][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:30,680][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:30,724][INFO] Saving the latent space plots, latent vs generated.
+[2020-09-23 12:56:31,053][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:31,074][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:31,074][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:31,122][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:31,148][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:31,148][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:31,179][INFO] Saving the observed space plots, training vs generated.
+[2020-09-23 12:56:31,545][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:31,605][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:31,605][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:31,676][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:31,698][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:31,699][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:31,760][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:31,810][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:31,810][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:31,876][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:56:31,899][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:56:31,899][DEBUG] Writing TrueType font.
+[2020-09-23 12:56:32,037][INFO] Loading state from output_walk/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(2)-dyn(25)-lvm(35)-hold(1)/iter(0)-state.pkl...
+[2020-09-23 12:56:32,039][INFO] State loading failed.
+[2020-09-23 12:56:46,711][DEBUG] Iteration 1 finished
+[2020-09-23 12:56:47,088][DEBUG] Iteration 2 finished
+[2020-09-23 12:56:47,280][DEBUG] Iteration 3 finished
+[2020-09-23 12:56:48,425][DEBUG] Iteration 4 finished
+[2020-09-23 12:56:48,999][DEBUG] Iteration 5 finished
+[2020-09-23 12:56:49,575][DEBUG] Iteration 6 finished
+[2020-09-23 12:56:50,723][DEBUG] Iteration 7 finished
+[2020-09-23 12:56:51,668][DEBUG] Iteration 8 finished
+[2020-09-23 12:56:52,417][DEBUG] Iteration 9 finished
+[2020-09-23 12:56:55,045][DEBUG] Iteration 10 finished
+[2020-09-23 12:56:58,846][DEBUG] Iteration 11 finished
+[2020-09-23 12:57:00,384][DEBUG] Iteration 12 finished
+[2020-09-23 12:57:03,421][DEBUG] Iteration 13 finished
+[2020-09-23 12:57:10,979][INFO] Optimized warnflag = 2
+[2020-09-23 12:57:10,979][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 12:57:10,980][INFO] Optimized f = -35665.4728804
+[2020-09-23 12:57:10,980][INFO] Optimized |df| = 89624649.3276
+[2020-09-23 12:57:11,098][INFO] Evaluated ELBO = 35665.5058136
+[2020-09-23 12:57:11,098][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 12:57:11,098][INFO] 0.19064293959813067
+[2020-09-23 12:57:11,098][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 12:57:11,098][INFO] [3.66969709 3.45313154 3.85414396 3.58792385 3.47976534 3.8969165 ]
+[2020-09-23 12:57:11,099][INFO] dyn_aug_z_[1, 0]
+[2020-09-23 12:57:11,099][INFO] [[ 0.76939482 -1.51119807 -0.86414026  0.74847228 -1.54477668 -0.99568154]
+ [-0.0962062   0.56592882 -0.93992207 -0.53908911  0.83659433 -0.70952574]
+ [-0.09840742  0.81785691 -0.6931345  -0.73498245  1.00464129 -0.38826338]
+ [ 0.87957224 -0.46983604 -1.25936026  1.28229947 -0.16712415 -1.29456343]
+ [ 0.87991323  0.61607317  0.69653321  1.1342021   0.37760186  0.71271242]
+ [ 0.11458405  1.08419319 -1.42855911 -0.30383873  1.53763687 -1.02789202]
+ [-0.61016474  1.6419438  -0.01241438 -0.42794381  1.50405647  0.31578622]
+ [ 1.86993769 -0.10105123 -1.58784297  1.99324397  1.20976019 -0.97270909]
+ [ 0.70049247  0.94877044 -1.04839865  0.21921413  1.28265673 -0.74870205]
+ [-1.20935578  1.09075112 -0.34970818 -1.04241049  1.28617767  0.13940247]
+ [-1.30871194 -1.22878972 -0.66896458 -0.63459456 -0.95687757 -0.89041847]
+ [ 0.04066377 -0.70202592 -0.78051209  1.12825252 -0.46565079 -1.2457553 ]
+ [-1.26727049  1.52879757 -0.01255704 -1.19612063  1.78924632  0.25178896]
+ [-0.93014333  1.04846214 -0.50101607 -1.20430356  1.03426581 -0.34574476]
+ [ 1.12349707 -0.20954441  0.4393906   1.1157785  -0.21725952  0.43571663]
+ [-0.203267   -0.26036245 -1.03702357 -0.63790753 -0.13111271 -1.00055707]
+ [ 0.32447347  1.03158212 -0.79774605 -0.15813986  1.30774611 -0.72411494]
+ [-0.01781044  0.42044817 -0.90775961 -0.50370357  0.29110296 -1.21148704]
+ [ 0.61670913 -1.48603547 -1.03665168  0.67374146 -1.30928573 -1.13196482]
+ [ 0.13271259  1.0086981   0.47596769  0.76777855  0.72951789  0.71418057]
+ [-0.93114051 -1.05431014 -0.73020972 -0.24952708 -0.66179225 -1.03604988]
+ [-0.37249995 -1.07801617  1.18001297 -0.72448175 -1.18558538  1.30313578]
+ [ 0.83480837 -0.6914714   1.30486208 -0.11883394 -0.85758066  0.86404916]
+ [-0.99892318  1.41457427  0.54719344 -0.71279977  1.47938061  0.83625942]
+ [-1.35211252 -1.04012503  0.72377116 -1.84116702 -1.05971995  0.45269073]]
+[2020-09-23 12:57:11,101][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 12:57:11,101][INFO] [16.97300977 12.34849537 10.27165281 15.9754067  12.17485901 10.27462458]
+[2020-09-23 12:57:11,101][INFO] dyn_aug_z_[0, 0]
+[2020-09-23 12:57:11,101][INFO] [[-0.62684692  1.50548643  0.23635448 -0.54853577  1.39360214  0.46123009]
+ [-0.47234056  0.51641851 -0.08065844  0.07957743  1.32109012 -0.84362575]
+ [-1.78637316 -0.86934998  1.01487742 -1.73675175 -0.89948313 -0.44970312]
+ [-1.1126477  -0.69121743  0.44979185 -0.9786791  -0.70983957  0.02174483]
+ [-0.08395897 -0.62616666  0.37984255 -0.4037878  -0.23904241 -0.89144969]
+ [ 0.56002876  0.413089    1.0685777   0.58340277  0.88204478  0.47038475]
+ [-1.92117147  2.40571701  0.41212269 -1.90543233  2.37233903  0.4288367 ]
+ [ 1.30317098 -1.4183233  -0.04427392  1.58744048 -1.5225318   1.52319401]
+ [-3.24619788  1.48462126 -1.11082059 -3.19759651  1.19428355 -0.9938278 ]
+ [-0.05173762 -0.73281518 -1.68009523 -0.30859977 -0.72806455 -0.76146556]
+ [ 0.23695146  0.94085313  0.99325216  0.05845213  1.04243822 -0.48447058]
+ [ 1.78994031  0.25357791  1.56970907  1.73800564  0.22262695  0.56601422]
+ [-2.00940316 -1.26650214  0.43675454 -2.04533485 -1.93950893  0.28123901]
+ [-1.22872688 -2.30390452  0.20421516 -1.40452462 -2.29388945 -1.08295631]
+ [-0.00732945 -2.10885868  2.39530326 -0.27003828 -1.91329974  2.21275647]
+ [ 0.73739961  0.0679206   0.87474327  0.72772762  0.04328396  0.43812764]
+ [ 0.17083529  0.72816819 -1.41321264  0.21834353  0.45747638 -0.30030079]
+ [ 0.25129444  0.47598254  0.07237715  0.2937827   0.4925335   0.16187223]
+ [ 1.03299921 -0.38757247 -1.17362023  1.00986633 -0.40014172 -1.14367386]
+ [ 0.5634313  -1.77652641 -0.80082045  0.96871793 -1.83740307  0.07026288]
+ [-1.29486473  1.6630048   0.44794347 -1.31931246  1.60628497  0.36093909]
+ [-2.321364   -0.58089204  0.74488568 -2.21623769 -0.68273528  1.90460701]
+ [-0.0601883   0.79328454 -0.86216747  0.10458072  0.92495606 -2.03578648]
+ [-1.23699556 -0.48939627  0.61597621 -1.21687878 -0.40980954  0.63106547]
+ [-0.0168375  -0.15739457 -0.56463131  1.35413309  0.40104885  1.48906787]]
+[2020-09-23 12:57:11,103][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 12:57:11,103][INFO] [20.55423952 20.67828583 20.60247235]
+[2020-09-23 12:57:11,103][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 12:57:11,103][INFO] [19.73821727 19.68727334 19.64606091]
+[2020-09-23 12:57:11,104][INFO] lvm_beta_[0]
+[2020-09-23 12:57:11,104][INFO] 1040.1614446510066
+[2020-09-23 12:57:11,104][INFO] lvm_aug_z_[1]
+[2020-09-23 12:57:11,104][INFO] [[-0.26866937  1.77206392 -0.79892082]
+ [-0.81313829 -1.48337987  2.5142119 ]
+ [-1.01597963  1.9706504   0.53396357]
+ [ 1.38835554 -0.97163699 -0.12917795]
+ [-1.81890046  2.52075321 -1.21432743]
+ [ 2.08756238 -1.86435815  2.9274496 ]
+ [ 0.87842247 -0.70536779 -1.44691922]
+ [-0.35746034 -0.51533379 -1.47213282]
+ [ 0.10069739 -1.28436898  1.44429583]
+ [ 1.20271654 -2.12742108 -2.6864013 ]
+ [-1.82783495 -1.07408692 -0.30039936]
+ [ 0.198325    0.19861162 -0.80582578]
+ [-2.48223178 -0.98316707  2.2481622 ]
+ [-0.19280699  0.82654207 -0.10220572]
+ [ 0.75697115  1.47845899  0.05148359]
+ [ 1.35929439 -1.76207038 -1.52673111]
+ [-1.06067724  0.36973176  1.26092885]
+ [ 1.90580778  2.58723825 -1.62993056]
+ [ 1.02809964  1.54699254 -0.62716183]
+ [-1.56511213  2.63013476  2.52988384]
+ [-1.70585683  1.47460074  1.75304554]
+ [-1.68159996  2.23192348  0.74724618]
+ [-0.51016587  0.74485209  0.92526292]
+ [ 0.87984292 -2.06468565  2.92951897]
+ [-1.12259145 -2.86281926  1.66715786]
+ [ 0.00433537 -0.86836266  0.55747228]
+ [-2.54199905  3.08069527 -1.36962937]
+ [ 2.79735929  1.76412779  0.49040871]
+ [-0.39197585  2.55986766  0.24436923]
+ [-0.41412496 -1.1679972   0.59962943]
+ [-2.45295827  0.96184045 -2.35422306]
+ [ 2.4253382  -0.5263308   2.69909169]
+ [-1.71228551 -2.48188877  0.85437035]
+ [ 2.20814503  1.73111156 -1.92968171]
+ [-2.74556359 -0.67697695 -0.77059888]]
+[2020-09-23 12:57:11,105][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 12:57:11,105][INFO] [5.06971001 4.36036238 3.67563388 5.38701031 4.13982687 3.60179988]
+[2020-09-23 12:57:11,106][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 12:57:11,106][INFO] [13.13977677 11.45899629 14.71127888 13.16499252 11.28481846 14.27710854]
+[2020-09-23 12:57:11,106][INFO] lvm_beta_[1]
+[2020-09-23 12:57:11,106][INFO] 755.3105072058008
+[2020-09-23 12:57:11,106][INFO] alpha
+[2020-09-23 12:57:11,106][INFO] [[0.53501478 1.64728323]
+ [1.64347594 0.54327286]]
+[2020-09-23 12:57:11,107][INFO] dyn_aug_z_[1, 1]
+[2020-09-23 12:57:11,107][INFO] [[-0.94068243 -2.73930403 -2.30954168 -0.13996427 -2.16008459 -2.43876678]
+ [ 0.97613755 -0.59699224 -2.09266193  0.7784617  -0.4556692  -1.78101853]
+ [-1.13444913  1.87181256  0.40861709  0.21120727  1.52354014  0.61490255]
+ [-0.8793988   0.87841441 -0.56113088 -1.13151335  1.63318809 -0.1463005 ]
+ [ 0.54629401  1.02792172  1.74153782 -0.39159014  0.11617182  1.98591346]
+ [ 0.16289202 -0.52905545  1.14142573 -0.39622201 -0.88387851  0.67382229]
+ [-1.39705227 -1.99403781  0.4866572  -2.0221464  -1.94639617  0.66463069]
+ [-0.6576802  -0.75156361  0.35430967 -1.17486841 -0.6040952   0.24963501]
+ [-0.11622334  1.26332537  0.40763086 -0.19584274  1.5736652   0.47910443]
+ [ 0.86341117  2.17665173 -1.22323971 -0.91953686  2.77566093 -0.74465068]
+ [-0.47968871  1.86206014 -0.46264683 -0.33010179  2.28874209  0.23663892]
+ [-0.61905356 -1.39362866 -1.7121378   1.94311945 -0.65150427 -2.24500092]
+ [ 1.27057415 -0.2408046   0.34279021  2.13434624 -0.26850409 -0.02653421]
+ [ 0.89103909 -0.31166176  1.21289966 -0.14161871 -1.07201531  1.04877712]
+ [ 0.36771562 -0.62397908 -0.06509517  0.78294829 -0.29077447 -0.23713159]
+ [ 1.93407165  0.79044981 -1.38035539  1.96200157  1.04703515 -0.75860717]
+ [-1.7056854  -0.86421365  1.23194355 -1.65062927 -0.98607341  0.24403121]
+ [ 0.16915769  0.70806281  1.14792282  0.4618506  -0.02361895  1.34370996]
+ [ 1.48329644 -1.54005762  0.8219331   1.0936122  -0.77719358  1.01055805]
+ [ 0.39315436 -2.41165967 -2.4376927   0.34891325 -2.09355357 -2.63728982]
+ [-3.12895997 -2.49404917 -0.08439741 -3.14446175 -2.72152369 -0.31998654]
+ [-1.06368914 -1.48505586  1.16549769 -0.65376837 -1.11979156  1.93999339]
+ [ 0.41469897 -0.34785067  1.44409358 -0.41798201 -0.58307351  0.81639921]
+ [ 2.6709805  -1.46367228  2.64886159  2.92396547 -1.72853751  2.66095987]
+ [ 2.27865766 -1.25381096  1.53900037  2.19746132 -1.21906913  1.97272831]]
+[2020-09-23 12:57:11,108][INFO] dyn_aug_z_[0, 1]
+[2020-09-23 12:57:11,109][INFO] [[-1.24624162  1.822109   -0.02297491 -1.25310802  1.98174905  0.19669612]
+ [ 0.44751644 -1.48876013  1.12940825  0.52214488 -1.53873685  0.92973303]
+ [ 1.09174008  0.20712906  0.98277806  1.04647101  0.16121001  1.09947051]
+ [ 0.78643996  0.49853729 -1.07221031  0.53569106  0.17264083 -1.54463606]
+ [-1.31721889  0.17537381  0.09709866 -1.22549483  0.21499136  0.03365242]
+ [ 0.70765724  0.55400232 -1.38643897  0.94866083  0.84448371 -1.06800676]
+ [ 0.8678735   0.27294994  1.28312845  0.9972568   0.08486081  1.66187943]
+ [ 0.72910835  0.45837597 -0.00821527  0.56152749  0.43403502 -0.13591179]
+ [-1.05488056 -1.81010792 -1.15979155 -1.1228799  -1.82376915 -1.24761371]
+ [-0.31192885  0.64071826 -0.48993543 -0.25300513  0.61624429 -0.47433498]
+ [-0.70047387  0.04407395 -0.85223868 -0.61355482  0.07593055 -0.96508529]
+ [-2.10236965 -0.13959807  0.52711329 -2.06413465 -0.2660396   0.65408612]
+ [ 2.03648958  0.53423495  0.71187282  1.87270856  0.70225381  0.70620938]
+ [ 0.24354865  0.37050228  0.71847364  0.29281524  0.53457058  0.60618327]
+ [ 0.72244759  0.3753942  -1.58070297  0.94648096  0.38520829 -1.56823122]
+ [ 0.18158252 -0.38476098 -1.63794785  0.25080461 -0.22730081 -1.1267329 ]
+ [ 0.73600366  0.18083804  1.1074355   0.81381994  0.1232147   1.6759476 ]
+ [-0.7394944   1.47047445 -0.25217819 -1.0522943   1.54617436 -0.33458711]
+ [-1.63054911  1.65232481  0.99863908 -1.34079188  1.24794184  0.90554825]
+ [ 0.33200518 -0.02025055 -0.59710562  0.30896255 -0.11242993 -0.37329472]
+ [ 0.15009458 -1.92398975  1.3016881   0.10980222 -2.00240293  1.34662885]
+ [ 0.49523653 -0.78567251  0.74325847  0.51958886 -0.98009561  1.09352295]
+ [ 1.00414865  0.66069028 -0.36866353  1.07158991  0.51971866 -0.13239018]
+ [-0.10866934 -1.83397708 -0.65832892 -0.21522707 -1.82237005 -0.9053148 ]
+ [-1.70033712 -0.06252013  1.14137095 -1.63749652 -0.00951791  1.10636472]]
+[2020-09-23 12:57:11,110][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 12:57:11,110][INFO] 0.9954675504911431
+[2020-09-23 12:57:11,111][INFO] lvm_aug_z_[0]
+[2020-09-23 12:57:11,111][INFO] [[-0.97784429  2.74854785  2.07508802]
+ [-2.67966532 -0.74643193 -0.46812092]
+ [-0.95215444  2.30450786  2.57201099]
+ [ 2.17659052 -1.44984384 -1.40808399]
+ [ 3.19236136 -1.53023615  3.03712143]
+ [-1.1145059   0.07376501 -1.83494513]
+ [-1.00666127 -1.58939401 -1.22059884]
+ [-0.03455291  0.81012293 -1.64662012]
+ [-1.70311277 -1.64957572  1.37550138]
+ [-1.23731985 -1.57817547  2.8267185 ]
+ [-1.29596089 -1.6084651  -1.29544837]
+ [-1.42229787 -1.95215547 -2.8415485 ]
+ [-2.98610567 -3.65676623 -1.1295812 ]
+ [-2.29851984 -1.17249098  1.19612427]
+ [-1.82809041 -1.32414043 -2.58085112]
+ [ 2.31708301 -1.87976876  2.77990261]
+ [-1.46531712 -2.33787724 -0.302944  ]
+ [-0.83388497 -1.68297448  2.52933386]
+ [ 2.01828443 -1.67080469 -0.85288565]
+ [-1.30655095 -1.72258352 -1.07848764]
+ [ 2.32223196  2.12722125 -2.65199046]
+ [-3.56957435 -1.4685916  -0.61749611]
+ [-2.65603788 -0.32407162 -1.69332462]
+ [-1.52859055 -1.89008461  1.03039129]
+ [-0.42700609  0.7050043   2.19933119]
+ [ 1.14266347  0.20473075  3.00821321]
+ [-1.62646352  0.67189281 -1.59876956]
+ [-2.41407852 -3.49128028  1.59749245]
+ [-0.7747809  -0.65705267 -1.48176411]
+ [ 2.96924739  2.25796594  2.53874007]
+ [-0.52243553 -1.78629717  2.3338212 ]
+ [ 0.18793121  1.26638145 -0.78382099]
+ [-0.32561891 -1.00635681 -1.22336764]
+ [-0.25877326 -2.80204355 -0.99262616]
+ [ 0.28538477 -1.85728536 -0.89629214]]
+[2020-09-23 12:57:20,775][DEBUG] Iteration 1 finished
+[2020-09-23 12:57:21,126][DEBUG] Iteration 2 finished
+[2020-09-23 12:57:21,477][DEBUG] Iteration 3 finished
+[2020-09-23 12:57:21,829][DEBUG] Iteration 4 finished
+[2020-09-23 12:57:22,181][DEBUG] Iteration 5 finished
+[2020-09-23 12:57:22,358][DEBUG] Iteration 6 finished
+[2020-09-23 12:57:22,534][DEBUG] Iteration 7 finished
+[2020-09-23 12:57:22,709][DEBUG] Iteration 8 finished
+[2020-09-23 12:57:22,885][DEBUG] Iteration 9 finished
+[2020-09-23 12:57:23,062][DEBUG] Iteration 10 finished
+[2020-09-23 12:57:23,240][DEBUG] Iteration 11 finished
+[2020-09-23 12:57:23,417][DEBUG] Iteration 12 finished
+[2020-09-23 12:57:23,593][DEBUG] Iteration 13 finished
+[2020-09-23 12:57:23,768][DEBUG] Iteration 14 finished
+[2020-09-23 12:57:23,945][DEBUG] Iteration 15 finished
+[2020-09-23 12:57:24,121][DEBUG] Iteration 16 finished
+[2020-09-23 12:57:24,297][DEBUG] Iteration 17 finished
+[2020-09-23 12:57:24,473][DEBUG] Iteration 18 finished
+[2020-09-23 12:57:24,650][DEBUG] Iteration 19 finished
+[2020-09-23 12:57:24,828][DEBUG] Iteration 20 finished
+[2020-09-23 12:57:25,004][DEBUG] Iteration 21 finished
+[2020-09-23 12:57:25,180][DEBUG] Iteration 22 finished
+[2020-09-23 12:57:25,356][DEBUG] Iteration 23 finished
+[2020-09-23 12:57:25,533][DEBUG] Iteration 24 finished
+[2020-09-23 12:57:25,708][DEBUG] Iteration 25 finished
+[2020-09-23 12:57:25,886][DEBUG] Iteration 26 finished
+[2020-09-23 12:57:26,062][DEBUG] Iteration 27 finished
+[2020-09-23 12:57:26,239][DEBUG] Iteration 28 finished
+[2020-09-23 12:57:26,415][DEBUG] Iteration 29 finished
+[2020-09-23 12:57:26,591][DEBUG] Iteration 30 finished
+[2020-09-23 12:57:26,768][DEBUG] Iteration 31 finished
+[2020-09-23 12:57:26,945][DEBUG] Iteration 32 finished
+[2020-09-23 12:57:27,122][DEBUG] Iteration 33 finished
+[2020-09-23 12:57:27,301][DEBUG] Iteration 34 finished
+[2020-09-23 12:57:27,479][DEBUG] Iteration 35 finished
+[2020-09-23 12:57:27,656][DEBUG] Iteration 36 finished
+[2020-09-23 12:57:27,833][DEBUG] Iteration 37 finished
+[2020-09-23 12:57:28,008][DEBUG] Iteration 38 finished
+[2020-09-23 12:57:28,185][DEBUG] Iteration 39 finished
+[2020-09-23 12:57:28,535][DEBUG] Iteration 40 finished
+[2020-09-23 12:57:28,882][DEBUG] Iteration 41 finished
+[2020-09-23 12:57:29,053][DEBUG] Iteration 42 finished
+[2020-09-23 12:57:29,227][DEBUG] Iteration 43 finished
+[2020-09-23 12:57:29,404][DEBUG] Iteration 44 finished
+[2020-09-23 12:57:29,580][DEBUG] Iteration 45 finished
+[2020-09-23 12:57:29,755][DEBUG] Iteration 46 finished
+[2020-09-23 12:57:29,931][DEBUG] Iteration 47 finished
+[2020-09-23 12:57:30,107][DEBUG] Iteration 48 finished
+[2020-09-23 12:57:30,283][DEBUG] Iteration 49 finished
+[2020-09-23 12:57:30,636][DEBUG] Iteration 50 finished
+[2020-09-23 12:57:30,813][DEBUG] Iteration 51 finished
+[2020-09-23 12:57:30,989][DEBUG] Iteration 52 finished
+[2020-09-23 12:57:31,165][DEBUG] Iteration 53 finished
+[2020-09-23 12:57:31,343][DEBUG] Iteration 54 finished
+[2020-09-23 12:57:31,519][DEBUG] Iteration 55 finished
+[2020-09-23 12:57:31,696][DEBUG] Iteration 56 finished
+[2020-09-23 12:57:31,872][DEBUG] Iteration 57 finished
+[2020-09-23 12:57:32,049][DEBUG] Iteration 58 finished
+[2020-09-23 12:57:32,225][DEBUG] Iteration 59 finished
+[2020-09-23 12:57:32,401][DEBUG] Iteration 60 finished
+[2020-09-23 12:57:32,577][DEBUG] Iteration 61 finished
+[2020-09-23 12:57:32,752][DEBUG] Iteration 62 finished
+[2020-09-23 12:57:32,928][DEBUG] Iteration 63 finished
+[2020-09-23 12:57:33,103][DEBUG] Iteration 64 finished
+[2020-09-23 12:57:33,280][DEBUG] Iteration 65 finished
+[2020-09-23 12:57:33,458][DEBUG] Iteration 66 finished
+[2020-09-23 12:57:33,634][DEBUG] Iteration 67 finished
+[2020-09-23 12:57:33,987][DEBUG] Iteration 68 finished
+[2020-09-23 12:57:34,162][DEBUG] Iteration 69 finished
+[2020-09-23 12:57:34,339][DEBUG] Iteration 70 finished
+[2020-09-23 12:57:34,517][DEBUG] Iteration 71 finished
+[2020-09-23 12:57:34,694][DEBUG] Iteration 72 finished
+[2020-09-23 12:57:34,869][DEBUG] Iteration 73 finished
+[2020-09-23 12:57:35,045][DEBUG] Iteration 74 finished
+[2020-09-23 12:57:35,222][DEBUG] Iteration 75 finished
+[2020-09-23 12:57:35,399][DEBUG] Iteration 76 finished
+[2020-09-23 12:57:35,575][DEBUG] Iteration 77 finished
+[2020-09-23 12:57:35,751][DEBUG] Iteration 78 finished
+[2020-09-23 12:57:35,928][DEBUG] Iteration 79 finished
+[2020-09-23 12:57:36,105][DEBUG] Iteration 80 finished
+[2020-09-23 12:57:36,281][DEBUG] Iteration 81 finished
+[2020-09-23 12:57:36,458][DEBUG] Iteration 82 finished
+[2020-09-23 12:57:36,635][DEBUG] Iteration 83 finished
+[2020-09-23 12:57:36,811][DEBUG] Iteration 84 finished
+[2020-09-23 12:57:36,988][DEBUG] Iteration 85 finished
+[2020-09-23 12:57:37,165][DEBUG] Iteration 86 finished
+[2020-09-23 12:57:37,342][DEBUG] Iteration 87 finished
+[2020-09-23 12:57:37,694][DEBUG] Iteration 88 finished
+[2020-09-23 12:57:37,870][DEBUG] Iteration 89 finished
+[2020-09-23 12:57:38,046][DEBUG] Iteration 90 finished
+[2020-09-23 12:57:38,223][DEBUG] Iteration 91 finished
+[2020-09-23 12:57:38,400][DEBUG] Iteration 92 finished
+[2020-09-23 12:57:38,576][DEBUG] Iteration 93 finished
+[2020-09-23 12:57:38,754][DEBUG] Iteration 94 finished
+[2020-09-23 12:57:38,931][DEBUG] Iteration 95 finished
+[2020-09-23 12:57:39,108][DEBUG] Iteration 96 finished
+[2020-09-23 12:57:39,285][DEBUG] Iteration 97 finished
+[2020-09-23 12:57:39,461][DEBUG] Iteration 98 finished
+[2020-09-23 12:57:39,637][DEBUG] Iteration 99 finished
+[2020-09-23 12:57:39,814][DEBUG] Iteration 100 finished
+[2020-09-23 12:57:39,990][DEBUG] Iteration 101 finished
+[2020-09-23 12:57:40,167][DEBUG] Iteration 102 finished
+[2020-09-23 12:57:40,343][DEBUG] Iteration 103 finished
+[2020-09-23 12:57:40,520][DEBUG] Iteration 104 finished
+[2020-09-23 12:57:40,697][DEBUG] Iteration 105 finished
+[2020-09-23 12:57:40,874][DEBUG] Iteration 106 finished
+[2020-09-23 12:57:41,050][DEBUG] Iteration 107 finished
+[2020-09-23 12:57:41,227][DEBUG] Iteration 108 finished
+[2020-09-23 12:57:41,403][DEBUG] Iteration 109 finished
+[2020-09-23 12:57:41,579][DEBUG] Iteration 110 finished
+[2020-09-23 12:57:41,756][DEBUG] Iteration 111 finished
+[2020-09-23 12:57:41,933][DEBUG] Iteration 112 finished
+[2020-09-23 12:57:42,110][DEBUG] Iteration 113 finished
+[2020-09-23 12:57:42,286][DEBUG] Iteration 114 finished
+[2020-09-23 12:57:42,463][DEBUG] Iteration 115 finished
+[2020-09-23 12:57:42,640][DEBUG] Iteration 116 finished
+[2020-09-23 12:57:42,815][DEBUG] Iteration 117 finished
+[2020-09-23 12:57:43,168][DEBUG] Iteration 118 finished
+[2020-09-23 12:57:43,345][DEBUG] Iteration 119 finished
+[2020-09-23 12:57:43,522][DEBUG] Iteration 120 finished
+[2020-09-23 12:57:43,699][DEBUG] Iteration 121 finished
+[2020-09-23 12:57:43,876][DEBUG] Iteration 122 finished
+[2020-09-23 12:57:44,052][DEBUG] Iteration 123 finished
+[2020-09-23 12:57:44,230][DEBUG] Iteration 124 finished
+[2020-09-23 12:57:44,406][DEBUG] Iteration 125 finished
+[2020-09-23 12:57:44,583][DEBUG] Iteration 126 finished
+[2020-09-23 12:57:44,762][DEBUG] Iteration 127 finished
+[2020-09-23 12:57:44,940][DEBUG] Iteration 128 finished
+[2020-09-23 12:57:45,117][DEBUG] Iteration 129 finished
+[2020-09-23 12:57:45,294][DEBUG] Iteration 130 finished
+[2020-09-23 12:57:45,471][DEBUG] Iteration 131 finished
+[2020-09-23 12:57:45,648][DEBUG] Iteration 132 finished
+[2020-09-23 12:57:45,824][DEBUG] Iteration 133 finished
+[2020-09-23 12:57:46,002][DEBUG] Iteration 134 finished
+[2020-09-23 12:57:46,179][DEBUG] Iteration 135 finished
+[2020-09-23 12:57:46,356][DEBUG] Iteration 136 finished
+[2020-09-23 12:57:46,533][DEBUG] Iteration 137 finished
+[2020-09-23 12:57:46,709][DEBUG] Iteration 138 finished
+[2020-09-23 12:57:47,063][DEBUG] Iteration 139 finished
+[2020-09-23 12:57:47,239][DEBUG] Iteration 140 finished
+[2020-09-23 12:57:47,416][DEBUG] Iteration 141 finished
+[2020-09-23 12:57:47,593][DEBUG] Iteration 142 finished
+[2020-09-23 12:57:47,945][DEBUG] Iteration 143 finished
+[2020-09-23 12:57:48,122][DEBUG] Iteration 144 finished
+[2020-09-23 12:57:48,299][DEBUG] Iteration 145 finished
+[2020-09-23 12:57:48,475][DEBUG] Iteration 146 finished
+[2020-09-23 12:57:48,653][DEBUG] Iteration 147 finished
+[2020-09-23 12:57:48,828][DEBUG] Iteration 148 finished
+[2020-09-23 12:57:49,003][DEBUG] Iteration 149 finished
+[2020-09-23 12:57:49,179][DEBUG] Iteration 150 finished
+[2020-09-23 12:57:49,356][DEBUG] Iteration 151 finished
+[2020-09-23 12:57:49,533][DEBUG] Iteration 152 finished
+[2020-09-23 12:57:49,711][DEBUG] Iteration 153 finished
+[2020-09-23 12:57:50,063][DEBUG] Iteration 154 finished
+[2020-09-23 12:57:50,239][DEBUG] Iteration 155 finished
+[2020-09-23 12:57:50,416][DEBUG] Iteration 156 finished
+[2020-09-23 12:57:50,592][DEBUG] Iteration 157 finished
+[2020-09-23 12:57:50,767][DEBUG] Iteration 158 finished
+[2020-09-23 12:57:50,943][DEBUG] Iteration 159 finished
+[2020-09-23 12:57:51,119][DEBUG] Iteration 160 finished
+[2020-09-23 12:57:51,295][DEBUG] Iteration 161 finished
+[2020-09-23 12:57:51,471][DEBUG] Iteration 162 finished
+[2020-09-23 12:57:51,648][DEBUG] Iteration 163 finished
+[2020-09-23 12:57:51,825][DEBUG] Iteration 164 finished
+[2020-09-23 12:57:52,001][DEBUG] Iteration 165 finished
+[2020-09-23 12:57:52,178][DEBUG] Iteration 166 finished
+[2020-09-23 12:57:52,354][DEBUG] Iteration 167 finished
+[2020-09-23 12:57:52,531][DEBUG] Iteration 168 finished
+[2020-09-23 12:57:52,707][DEBUG] Iteration 169 finished
+[2020-09-23 12:57:52,885][DEBUG] Iteration 170 finished
+[2020-09-23 12:57:53,062][DEBUG] Iteration 171 finished
+[2020-09-23 12:57:53,238][DEBUG] Iteration 172 finished
+[2020-09-23 12:57:53,413][DEBUG] Iteration 173 finished
+[2020-09-23 12:57:53,590][DEBUG] Iteration 174 finished
+[2020-09-23 12:57:53,766][DEBUG] Iteration 175 finished
+[2020-09-23 12:57:53,943][DEBUG] Iteration 176 finished
+[2020-09-23 12:57:54,121][DEBUG] Iteration 177 finished
+[2020-09-23 12:57:54,473][DEBUG] Iteration 178 finished
+[2020-09-23 12:57:54,650][DEBUG] Iteration 179 finished
+[2020-09-23 12:57:54,827][DEBUG] Iteration 180 finished
+[2020-09-23 12:57:55,179][DEBUG] Iteration 181 finished
+[2020-09-23 12:57:55,356][DEBUG] Iteration 182 finished
+[2020-09-23 12:57:55,883][DEBUG] Iteration 183 finished
+[2020-09-23 12:57:56,060][DEBUG] Iteration 184 finished
+[2020-09-23 12:57:56,412][DEBUG] Iteration 185 finished
+[2020-09-23 12:57:56,588][DEBUG] Iteration 186 finished
+[2020-09-23 12:57:56,765][DEBUG] Iteration 187 finished
+[2020-09-23 12:57:56,942][DEBUG] Iteration 188 finished
+[2020-09-23 12:57:57,119][DEBUG] Iteration 189 finished
+[2020-09-23 12:57:57,296][DEBUG] Iteration 190 finished
+[2020-09-23 12:57:57,470][DEBUG] Iteration 191 finished
+[2020-09-23 12:57:57,646][DEBUG] Iteration 192 finished
+[2020-09-23 12:57:57,822][DEBUG] Iteration 193 finished
+[2020-09-23 12:57:58,000][DEBUG] Iteration 194 finished
+[2020-09-23 12:57:58,177][DEBUG] Iteration 195 finished
+[2020-09-23 12:57:58,703][DEBUG] Iteration 196 finished
+[2020-09-23 12:57:58,879][DEBUG] Iteration 197 finished
+[2020-09-23 12:57:59,056][DEBUG] Iteration 198 finished
+[2020-09-23 12:57:59,761][DEBUG] Iteration 199 finished
+[2020-09-23 12:57:59,938][DEBUG] Iteration 200 finished
+[2020-09-23 12:58:00,116][DEBUG] Iteration 201 finished
+[2020-09-23 12:58:00,293][DEBUG] Iteration 202 finished
+[2020-09-23 12:58:00,469][DEBUG] Iteration 203 finished
+[2020-09-23 12:58:00,647][DEBUG] Iteration 204 finished
+[2020-09-23 12:58:00,824][DEBUG] Iteration 205 finished
+[2020-09-23 12:58:01,178][DEBUG] Iteration 206 finished
+[2020-09-23 12:58:01,356][DEBUG] Iteration 207 finished
+[2020-09-23 12:58:01,533][DEBUG] Iteration 208 finished
+[2020-09-23 12:58:01,708][DEBUG] Iteration 209 finished
+[2020-09-23 12:58:02,057][DEBUG] Iteration 210 finished
+[2020-09-23 12:58:02,585][DEBUG] Iteration 211 finished
+[2020-09-23 12:58:02,938][DEBUG] Iteration 212 finished
+[2020-09-23 12:58:03,114][DEBUG] Iteration 213 finished
+[2020-09-23 12:58:03,290][DEBUG] Iteration 214 finished
+[2020-09-23 12:58:03,467][DEBUG] Iteration 215 finished
+[2020-09-23 12:58:03,642][DEBUG] Iteration 216 finished
+[2020-09-23 12:58:03,816][DEBUG] Iteration 217 finished
+[2020-09-23 12:58:03,991][DEBUG] Iteration 218 finished
+[2020-09-23 12:58:04,166][DEBUG] Iteration 219 finished
+[2020-09-23 12:58:04,342][DEBUG] Iteration 220 finished
+[2020-09-23 12:58:04,518][DEBUG] Iteration 221 finished
+[2020-09-23 12:58:04,870][DEBUG] Iteration 222 finished
+[2020-09-23 12:58:05,047][DEBUG] Iteration 223 finished
+[2020-09-23 12:58:05,223][DEBUG] Iteration 224 finished
+[2020-09-23 12:58:05,400][DEBUG] Iteration 225 finished
+[2020-09-23 12:58:05,576][DEBUG] Iteration 226 finished
+[2020-09-23 12:58:05,753][DEBUG] Iteration 227 finished
+[2020-09-23 12:58:06,104][DEBUG] Iteration 228 finished
+[2020-09-23 12:58:06,281][DEBUG] Iteration 229 finished
+[2020-09-23 12:58:06,459][DEBUG] Iteration 230 finished
+[2020-09-23 12:58:06,636][DEBUG] Iteration 231 finished
+[2020-09-23 12:58:06,814][DEBUG] Iteration 232 finished
+[2020-09-23 12:58:06,991][DEBUG] Iteration 233 finished
+[2020-09-23 12:58:07,168][DEBUG] Iteration 234 finished
+[2020-09-23 12:58:07,347][DEBUG] Iteration 235 finished
+[2020-09-23 12:58:07,699][DEBUG] Iteration 236 finished
+[2020-09-23 12:58:07,877][DEBUG] Iteration 237 finished
+[2020-09-23 12:58:08,054][DEBUG] Iteration 238 finished
+[2020-09-23 12:58:08,231][DEBUG] Iteration 239 finished
+[2020-09-23 12:58:08,408][DEBUG] Iteration 240 finished
+[2020-09-23 12:58:08,585][DEBUG] Iteration 241 finished
+[2020-09-23 12:58:08,762][DEBUG] Iteration 242 finished
+[2020-09-23 12:58:08,940][DEBUG] Iteration 243 finished
+[2020-09-23 12:58:09,117][DEBUG] Iteration 244 finished
+[2020-09-23 12:58:09,293][DEBUG] Iteration 245 finished
+[2020-09-23 12:58:09,471][DEBUG] Iteration 246 finished
+[2020-09-23 12:58:09,648][DEBUG] Iteration 247 finished
+[2020-09-23 12:58:09,825][DEBUG] Iteration 248 finished
+[2020-09-23 12:58:10,002][DEBUG] Iteration 249 finished
+[2020-09-23 12:58:10,179][DEBUG] Iteration 250 finished
+[2020-09-23 12:58:10,356][DEBUG] Iteration 251 finished
+[2020-09-23 12:58:10,533][DEBUG] Iteration 252 finished
+[2020-09-23 12:58:10,710][DEBUG] Iteration 253 finished
+[2020-09-23 12:58:10,888][DEBUG] Iteration 254 finished
+[2020-09-23 12:58:11,065][DEBUG] Iteration 255 finished
+[2020-09-23 12:58:11,243][DEBUG] Iteration 256 finished
+[2020-09-23 12:58:11,420][DEBUG] Iteration 257 finished
+[2020-09-23 12:58:11,597][DEBUG] Iteration 258 finished
+[2020-09-23 12:58:11,774][DEBUG] Iteration 259 finished
+[2020-09-23 12:58:11,951][DEBUG] Iteration 260 finished
+[2020-09-23 12:58:12,128][DEBUG] Iteration 261 finished
+[2020-09-23 12:58:12,306][DEBUG] Iteration 262 finished
+[2020-09-23 12:58:12,483][DEBUG] Iteration 263 finished
+[2020-09-23 12:58:12,660][DEBUG] Iteration 264 finished
+[2020-09-23 12:58:12,837][DEBUG] Iteration 265 finished
+[2020-09-23 12:58:13,014][DEBUG] Iteration 266 finished
+[2020-09-23 12:58:13,191][DEBUG] Iteration 267 finished
+[2020-09-23 12:58:13,367][DEBUG] Iteration 268 finished
+[2020-09-23 12:58:13,544][DEBUG] Iteration 269 finished
+[2020-09-23 12:58:13,722][DEBUG] Iteration 270 finished
+[2020-09-23 12:58:13,899][DEBUG] Iteration 271 finished
+[2020-09-23 12:58:14,075][DEBUG] Iteration 272 finished
+[2020-09-23 12:58:14,251][DEBUG] Iteration 273 finished
+[2020-09-23 12:58:14,427][DEBUG] Iteration 274 finished
+[2020-09-23 12:58:14,603][DEBUG] Iteration 275 finished
+[2020-09-23 12:58:14,780][DEBUG] Iteration 276 finished
+[2020-09-23 12:58:14,956][DEBUG] Iteration 277 finished
+[2020-09-23 12:58:15,133][DEBUG] Iteration 278 finished
+[2020-09-23 12:58:15,310][DEBUG] Iteration 279 finished
+[2020-09-23 12:58:15,662][DEBUG] Iteration 280 finished
+[2020-09-23 12:58:15,840][DEBUG] Iteration 281 finished
+[2020-09-23 12:58:16,017][DEBUG] Iteration 282 finished
+[2020-09-23 12:58:16,369][DEBUG] Iteration 283 finished
+[2020-09-23 12:58:16,721][DEBUG] Iteration 284 finished
+[2020-09-23 12:58:16,898][DEBUG] Iteration 285 finished
+[2020-09-23 12:58:17,076][DEBUG] Iteration 286 finished
+[2020-09-23 12:58:17,253][DEBUG] Iteration 287 finished
+[2020-09-23 12:58:17,430][DEBUG] Iteration 288 finished
+[2020-09-23 12:58:17,607][DEBUG] Iteration 289 finished
+[2020-09-23 12:58:17,784][DEBUG] Iteration 290 finished
+[2020-09-23 12:58:17,962][DEBUG] Iteration 291 finished
+[2020-09-23 12:58:18,313][DEBUG] Iteration 292 finished
+[2020-09-23 12:58:18,490][DEBUG] Iteration 293 finished
+[2020-09-23 12:58:18,668][DEBUG] Iteration 294 finished
+[2020-09-23 12:58:18,845][DEBUG] Iteration 295 finished
+[2020-09-23 12:58:19,022][DEBUG] Iteration 296 finished
+[2020-09-23 12:58:19,199][DEBUG] Iteration 297 finished
+[2020-09-23 12:58:19,376][DEBUG] Iteration 298 finished
+[2020-09-23 12:58:19,554][DEBUG] Iteration 299 finished
+[2020-09-23 12:58:19,731][DEBUG] Iteration 300 finished
+[2020-09-23 12:58:19,731][INFO] Optimized warnflag = 1
+[2020-09-23 12:58:19,732][INFO] Optimized task message = STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+[2020-09-23 12:58:19,732][INFO] Optimized f = -46084.7659505
+[2020-09-23 12:58:19,732][INFO] Optimized |df| = 1002.48808411
+[2020-09-23 12:58:19,843][INFO] Evaluated ELBO = 46084.7659505
+[2020-09-23 12:58:31,618][DEBUG] Iteration 1 finished
+[2020-09-23 12:58:31,982][DEBUG] Iteration 2 finished
+[2020-09-23 12:58:34,902][DEBUG] Iteration 3 finished
+[2020-09-23 12:58:35,390][DEBUG] Iteration 4 finished
+[2020-09-23 12:58:35,757][DEBUG] Iteration 5 finished
+[2020-09-23 12:58:36,125][DEBUG] Iteration 6 finished
+[2020-09-23 12:58:36,247][DEBUG] Iteration 7 finished
+[2020-09-23 12:58:36,371][DEBUG] Iteration 8 finished
+[2020-09-23 12:58:36,737][DEBUG] Iteration 9 finished
+[2020-09-23 12:58:38,328][DEBUG] Iteration 10 finished
+[2020-09-23 12:58:40,162][DEBUG] Iteration 11 finished
+[2020-09-23 12:58:44,938][DEBUG] Iteration 12 finished
+[2020-09-23 12:58:45,183][DEBUG] Iteration 13 finished
+[2020-09-23 12:58:48,122][DEBUG] Iteration 14 finished
+[2020-09-23 12:58:48,735][DEBUG] Iteration 15 finished
+[2020-09-23 12:58:48,979][DEBUG] Iteration 16 finished
+[2020-09-23 12:58:49,102][DEBUG] Iteration 17 finished
+[2020-09-23 12:58:49,592][DEBUG] Iteration 18 finished
+[2020-09-23 12:58:49,717][DEBUG] Iteration 19 finished
+[2020-09-23 12:58:51,307][DEBUG] Iteration 20 finished
+[2020-09-23 12:58:52,775][DEBUG] Iteration 21 finished
+[2020-09-23 12:58:54,598][DEBUG] Iteration 22 finished
+[2020-09-23 12:58:56,559][DEBUG] Iteration 23 finished
+[2020-09-23 12:58:58,647][DEBUG] Iteration 24 finished
+[2020-09-23 12:58:59,259][DEBUG] Iteration 25 finished
+[2020-09-23 12:58:59,504][DEBUG] Iteration 26 finished
+[2020-09-23 12:59:00,236][DEBUG] Iteration 27 finished
+[2020-09-23 12:59:00,725][DEBUG] Iteration 28 finished
+[2020-09-23 12:59:01,708][DEBUG] Iteration 29 finished
+[2020-09-23 12:59:05,116][DEBUG] Iteration 30 finished
+[2020-09-23 12:59:05,605][DEBUG] Iteration 31 finished
+[2020-09-23 12:59:05,850][DEBUG] Iteration 32 finished
+[2020-09-23 12:59:05,973][DEBUG] Iteration 33 finished
+[2020-09-23 12:59:07,192][DEBUG] Iteration 34 finished
+[2020-09-23 12:59:08,042][DEBUG] Iteration 35 finished
+[2020-09-23 12:59:08,166][DEBUG] Iteration 36 finished
+[2020-09-23 12:59:08,289][DEBUG] Iteration 37 finished
+[2020-09-23 12:59:08,412][DEBUG] Iteration 38 finished
+[2020-09-23 12:59:08,658][DEBUG] Iteration 39 finished
+[2020-09-23 12:59:08,903][DEBUG] Iteration 40 finished
+[2020-09-23 12:59:09,148][DEBUG] Iteration 41 finished
+[2020-09-23 12:59:09,394][DEBUG] Iteration 42 finished
+[2020-09-23 12:59:09,641][DEBUG] Iteration 43 finished
+[2020-09-23 12:59:14,524][INFO] Optimized warnflag = 2
+[2020-09-23 12:59:14,524][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 12:59:14,524][INFO] Optimized f = -46843.6634268
+[2020-09-23 12:59:14,524][INFO] Optimized |df| = 3883.23150185
+[2020-09-23 12:59:14,635][INFO] Evaluated ELBO = 46843.6634268
+[2020-09-23 12:59:14,636][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 12:59:14,636][INFO] 0.18564389801408598
+[2020-09-23 12:59:14,636][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 12:59:14,636][INFO] [4.63547504 4.42032226 4.66190921 4.51729719 4.41821509 4.63580586]
+[2020-09-23 12:59:14,636][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 12:59:14,636][INFO] [17.66280078 13.17036768 11.33027298 16.53130216 12.85511179 11.33109007]
+[2020-09-23 12:59:14,636][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 12:59:14,636][INFO] [12.77807978 38.6747657  35.06806751]
+[2020-09-23 12:59:14,637][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 12:59:14,637][INFO] [24.47008992 41.33150836 15.29359014]
+[2020-09-23 12:59:14,637][INFO] lvm_beta_[0]
+[2020-09-23 12:59:14,637][INFO] 1041.4412371677781
+[2020-09-23 12:59:14,637][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 12:59:14,637][INFO] [5.7814402  5.19721542 4.81164266 6.05213654 5.16685462 4.69631923]
+[2020-09-23 12:59:14,637][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 12:59:14,637][INFO] [14.71447378 13.23414206 16.14531074 14.21538465 12.81020338 15.26377462]
+[2020-09-23 12:59:14,638][INFO] lvm_beta_[1]
+[2020-09-23 12:59:14,638][INFO] 756.7148835661077
+[2020-09-23 12:59:14,638][INFO] alpha
+[2020-09-23 12:59:14,638][INFO] [[0.16539487 1.0193671 ]
+ [1.01322293 0.0833023 ]]
+[2020-09-23 12:59:14,638][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 12:59:14,638][INFO] 1.1303770131150028
+[2020-09-23 12:59:24,365][INFO] Optimized warnflag = 2
+[2020-09-23 12:59:24,365][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 12:59:24,365][INFO] Optimized f = -46843.6061045
+[2020-09-23 12:59:24,365][INFO] Optimized |df| = 1588644919.43
+[2020-09-23 12:59:24,477][INFO] Evaluated ELBO = 46843.6634268
+[2020-09-23 12:59:27,175][INFO] Optimized warnflag = 2
+[2020-09-23 12:59:27,175][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 12:59:27,175][INFO] Optimized f = -46843.636528
+[2020-09-23 12:59:27,176][INFO] Optimized |df| = 3883.23150185
+[2020-09-23 12:59:27,287][INFO] Evaluated ELBO = 46843.6634268
+[2020-09-23 12:59:27,288][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 12:59:27,288][INFO] 0.18564389801408598
+[2020-09-23 12:59:27,288][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 12:59:27,288][INFO] [4.63547504 4.42032226 4.66190921 4.51729719 4.41821509 4.63580586]
+[2020-09-23 12:59:27,288][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 12:59:27,288][INFO] [17.66280078 13.17036768 11.33027298 16.53130216 12.85511179 11.33109007]
+[2020-09-23 12:59:27,288][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 12:59:27,288][INFO] [12.77807978 38.6747657  35.06806751]
+[2020-09-23 12:59:27,289][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 12:59:27,289][INFO] [24.47008992 41.33150836 15.29359014]
+[2020-09-23 12:59:27,289][INFO] lvm_beta_[0]
+[2020-09-23 12:59:27,289][INFO] 1041.4412371677781
+[2020-09-23 12:59:27,289][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 12:59:27,289][INFO] [5.7814402  5.19721542 4.81164266 6.05213654 5.16685462 4.69631923]
+[2020-09-23 12:59:27,289][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 12:59:27,289][INFO] [14.71447378 13.23414206 16.14531074 14.21538465 12.81020338 15.26377462]
+[2020-09-23 12:59:27,290][INFO] lvm_beta_[1]
+[2020-09-23 12:59:27,290][INFO] 756.7148835661077
+[2020-09-23 12:59:27,290][INFO] alpha
+[2020-09-23 12:59:27,290][INFO] [[0.16539487 1.0193671 ]
+ [1.01322293 0.0833023 ]]
+[2020-09-23 12:59:27,290][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 12:59:27,290][INFO] 1.1303770131150028
+[2020-09-23 12:59:27,401][INFO] Saving the latent space plots.
+[2020-09-23 12:59:28,035][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:28,061][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:28,061][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:28,218][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:28,241][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:28,241][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:28,399][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:28,425][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:28,425][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:28,583][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:28,607][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:28,607][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:28,651][INFO] Saving the latent space plots.
+[2020-09-23 12:59:29,264][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:29,290][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:29,290][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:29,433][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:29,457][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:29,457][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:29,600][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:29,626][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:29,626][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:29,769][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:29,793][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:29,793][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:29,833][INFO] Saving the latent space plots, latent vs generated.
+[2020-09-23 12:59:30,175][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:30,199][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:30,199][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:30,249][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:30,272][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:30,272][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:30,301][INFO] Saving the observed space plots, training vs generated.
+[2020-09-23 12:59:30,670][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:30,729][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:30,729][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:30,793][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:30,816][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:30,816][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:30,879][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:30,930][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:30,930][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:30,997][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 12:59:31,021][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 12:59:31,021][DEBUG] Writing TrueType font.
+[2020-09-23 12:59:31,049][INFO] Loading state from output_walk/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(2)-dyn(25)-lvm(35)-hold(1)/iter(1)-state.pkl...
+[2020-09-23 12:59:31,049][INFO] State loading failed.
+[2020-09-23 12:59:32,061][DEBUG] Iteration 1 finished
+[2020-09-23 12:59:32,235][DEBUG] Iteration 2 finished
+[2020-09-23 12:59:32,584][DEBUG] Iteration 3 finished
+[2020-09-23 12:59:32,758][DEBUG] Iteration 4 finished
+[2020-09-23 12:59:34,143][DEBUG] Iteration 5 finished
+[2020-09-23 12:59:35,018][DEBUG] Iteration 6 finished
+[2020-09-23 12:59:35,716][DEBUG] Iteration 7 finished
+[2020-09-23 12:59:35,890][DEBUG] Iteration 8 finished
+[2020-09-23 12:59:36,065][DEBUG] Iteration 9 finished
+[2020-09-23 12:59:36,418][DEBUG] Iteration 10 finished
+[2020-09-23 12:59:36,593][DEBUG] Iteration 11 finished
+[2020-09-23 12:59:37,463][DEBUG] Iteration 12 finished
+[2020-09-23 12:59:37,812][DEBUG] Iteration 13 finished
+[2020-09-23 12:59:37,988][DEBUG] Iteration 14 finished
+[2020-09-23 12:59:38,161][DEBUG] Iteration 15 finished
+[2020-09-23 12:59:38,332][DEBUG] Iteration 16 finished
+[2020-09-23 12:59:38,856][DEBUG] Iteration 17 finished
+[2020-09-23 12:59:39,204][DEBUG] Iteration 18 finished
+[2020-09-23 12:59:39,380][DEBUG] Iteration 19 finished
+[2020-09-23 12:59:39,557][DEBUG] Iteration 20 finished
+[2020-09-23 12:59:39,906][DEBUG] Iteration 21 finished
+[2020-09-23 12:59:40,249][DEBUG] Iteration 22 finished
+[2020-09-23 12:59:40,422][DEBUG] Iteration 23 finished
+[2020-09-23 12:59:40,764][DEBUG] Iteration 24 finished
+[2020-09-23 12:59:40,940][DEBUG] Iteration 25 finished
+[2020-09-23 12:59:41,115][DEBUG] Iteration 26 finished
+[2020-09-23 12:59:41,464][DEBUG] Iteration 27 finished
+[2020-09-23 12:59:41,639][DEBUG] Iteration 28 finished
+[2020-09-23 12:59:41,815][DEBUG] Iteration 29 finished
+[2020-09-23 12:59:41,990][DEBUG] Iteration 30 finished
+[2020-09-23 12:59:42,166][DEBUG] Iteration 31 finished
+[2020-09-23 12:59:42,342][DEBUG] Iteration 32 finished
+[2020-09-23 12:59:42,518][DEBUG] Iteration 33 finished
+[2020-09-23 12:59:42,693][DEBUG] Iteration 34 finished
+[2020-09-23 12:59:43,189][DEBUG] Iteration 35 finished
+[2020-09-23 12:59:43,354][DEBUG] Iteration 36 finished
+[2020-09-23 12:59:43,522][DEBUG] Iteration 37 finished
+[2020-09-23 12:59:43,860][DEBUG] Iteration 38 finished
+[2020-09-23 12:59:44,030][DEBUG] Iteration 39 finished
+[2020-09-23 12:59:44,200][DEBUG] Iteration 40 finished
+[2020-09-23 12:59:44,371][DEBUG] Iteration 41 finished
+[2020-09-23 12:59:44,541][DEBUG] Iteration 42 finished
+[2020-09-23 12:59:45,218][DEBUG] Iteration 43 finished
+[2020-09-23 12:59:45,731][DEBUG] Iteration 44 finished
+[2020-09-23 12:59:45,904][DEBUG] Iteration 45 finished
+[2020-09-23 12:59:46,078][DEBUG] Iteration 46 finished
+[2020-09-23 12:59:46,252][DEBUG] Iteration 47 finished
+[2020-09-23 12:59:46,428][DEBUG] Iteration 48 finished
+[2020-09-23 12:59:46,603][DEBUG] Iteration 49 finished
+[2020-09-23 12:59:46,952][DEBUG] Iteration 50 finished
+[2020-09-23 12:59:47,651][DEBUG] Iteration 51 finished
+[2020-09-23 12:59:48,000][DEBUG] Iteration 52 finished
+[2020-09-23 12:59:48,175][DEBUG] Iteration 53 finished
+[2020-09-23 12:59:48,524][DEBUG] Iteration 54 finished
+[2020-09-23 12:59:48,699][DEBUG] Iteration 55 finished
+[2020-09-23 12:59:49,223][DEBUG] Iteration 56 finished
+[2020-09-23 12:59:49,573][DEBUG] Iteration 57 finished
+[2020-09-23 12:59:49,924][DEBUG] Iteration 58 finished
+[2020-09-23 12:59:50,099][DEBUG] Iteration 59 finished
+[2020-09-23 12:59:50,450][DEBUG] Iteration 60 finished
+[2020-09-23 12:59:50,797][DEBUG] Iteration 61 finished
+[2020-09-23 12:59:50,969][DEBUG] Iteration 62 finished
+[2020-09-23 12:59:51,496][DEBUG] Iteration 63 finished
+[2020-09-23 12:59:52,023][DEBUG] Iteration 64 finished
+[2020-09-23 12:59:52,198][DEBUG] Iteration 65 finished
+[2020-09-23 12:59:52,374][DEBUG] Iteration 66 finished
+[2020-09-23 12:59:52,720][DEBUG] Iteration 67 finished
+[2020-09-23 12:59:53,069][DEBUG] Iteration 68 finished
+[2020-09-23 12:59:53,239][DEBUG] Iteration 69 finished
+[2020-09-23 12:59:53,412][DEBUG] Iteration 70 finished
+[2020-09-23 12:59:53,762][DEBUG] Iteration 71 finished
+[2020-09-23 12:59:53,938][DEBUG] Iteration 72 finished
+[2020-09-23 12:59:54,113][DEBUG] Iteration 73 finished
+[2020-09-23 12:59:54,288][DEBUG] Iteration 74 finished
+[2020-09-23 12:59:54,638][DEBUG] Iteration 75 finished
+[2020-09-23 12:59:54,814][DEBUG] Iteration 76 finished
+[2020-09-23 12:59:54,986][DEBUG] Iteration 77 finished
+[2020-09-23 12:59:55,161][DEBUG] Iteration 78 finished
+[2020-09-23 12:59:55,333][DEBUG] Iteration 79 finished
+[2020-09-23 12:59:55,685][DEBUG] Iteration 80 finished
+[2020-09-23 12:59:56,031][DEBUG] Iteration 81 finished
+[2020-09-23 12:59:56,207][DEBUG] Iteration 82 finished
+[2020-09-23 12:59:56,384][DEBUG] Iteration 83 finished
+[2020-09-23 12:59:56,560][DEBUG] Iteration 84 finished
+[2020-09-23 12:59:56,732][DEBUG] Iteration 85 finished
+[2020-09-23 12:59:57,250][DEBUG] Iteration 86 finished
+[2020-09-23 12:59:57,599][DEBUG] Iteration 87 finished
+[2020-09-23 12:59:57,774][DEBUG] Iteration 88 finished
+[2020-09-23 12:59:58,995][DEBUG] Iteration 89 finished
+[2020-09-23 12:59:59,173][DEBUG] Iteration 90 finished
+[2020-09-23 12:59:59,523][DEBUG] Iteration 91 finished
+[2020-09-23 12:59:59,873][DEBUG] Iteration 92 finished
+[2020-09-23 13:00:00,049][DEBUG] Iteration 93 finished
+[2020-09-23 13:00:00,573][DEBUG] Iteration 94 finished
+[2020-09-23 13:00:01,098][DEBUG] Iteration 95 finished
+[2020-09-23 13:00:01,449][DEBUG] Iteration 96 finished
+[2020-09-23 13:00:01,625][DEBUG] Iteration 97 finished
+[2020-09-23 13:00:01,801][DEBUG] Iteration 98 finished
+[2020-09-23 13:00:02,151][DEBUG] Iteration 99 finished
+[2020-09-23 13:00:02,500][DEBUG] Iteration 100 finished
+[2020-09-23 13:00:02,675][DEBUG] Iteration 101 finished
+[2020-09-23 13:00:02,850][DEBUG] Iteration 102 finished
+[2020-09-23 13:00:03,374][DEBUG] Iteration 103 finished
+[2020-09-23 13:00:03,551][DEBUG] Iteration 104 finished
+[2020-09-23 13:00:03,725][DEBUG] Iteration 105 finished
+[2020-09-23 13:00:04,075][DEBUG] Iteration 106 finished
+[2020-09-23 13:00:04,251][DEBUG] Iteration 107 finished
+[2020-09-23 13:00:04,427][DEBUG] Iteration 108 finished
+[2020-09-23 13:00:04,602][DEBUG] Iteration 109 finished
+[2020-09-23 13:00:05,825][DEBUG] Iteration 110 finished
+[2020-09-23 13:00:05,998][DEBUG] Iteration 111 finished
+[2020-09-23 13:00:06,344][DEBUG] Iteration 112 finished
+[2020-09-23 13:00:06,866][DEBUG] Iteration 113 finished
+[2020-09-23 13:00:11,202][DEBUG] Iteration 114 finished
+[2020-09-23 13:00:11,373][DEBUG] Iteration 115 finished
+[2020-09-23 13:00:11,545][DEBUG] Iteration 116 finished
+[2020-09-23 13:00:11,720][DEBUG] Iteration 117 finished
+[2020-09-23 13:00:12,239][DEBUG] Iteration 118 finished
+[2020-09-23 13:00:12,412][DEBUG] Iteration 119 finished
+[2020-09-23 13:00:12,584][DEBUG] Iteration 120 finished
+[2020-09-23 13:00:13,453][DEBUG] Iteration 121 finished
+[2020-09-23 13:00:13,978][DEBUG] Iteration 122 finished
+[2020-09-23 13:00:14,155][DEBUG] Iteration 123 finished
+[2020-09-23 13:00:14,845][DEBUG] Iteration 124 finished
+[2020-09-23 13:00:16,576][DEBUG] Iteration 125 finished
+[2020-09-23 13:00:16,921][DEBUG] Iteration 126 finished
+[2020-09-23 13:00:17,265][DEBUG] Iteration 127 finished
+[2020-09-23 13:00:17,962][DEBUG] Iteration 128 finished
+[2020-09-23 13:00:18,660][DEBUG] Iteration 129 finished
+[2020-09-23 13:00:19,182][DEBUG] Iteration 130 finished
+[2020-09-23 13:00:20,052][DEBUG] Iteration 131 finished
+[2020-09-23 13:00:20,918][DEBUG] Iteration 132 finished
+[2020-09-23 13:00:21,440][DEBUG] Iteration 133 finished
+[2020-09-23 13:00:22,133][DEBUG] Iteration 134 finished
+[2020-09-23 13:00:22,306][DEBUG] Iteration 135 finished
+[2020-09-23 13:00:22,653][DEBUG] Iteration 136 finished
+[2020-09-23 13:00:22,829][DEBUG] Iteration 137 finished
+[2020-09-23 13:00:23,004][DEBUG] Iteration 138 finished
+[2020-09-23 13:00:23,182][DEBUG] Iteration 139 finished
+[2020-09-23 13:00:23,360][DEBUG] Iteration 140 finished
+[2020-09-23 13:00:23,710][DEBUG] Iteration 141 finished
+[2020-09-23 13:00:24,235][DEBUG] Iteration 142 finished
+[2020-09-23 13:00:24,752][DEBUG] Iteration 143 finished
+[2020-09-23 13:00:25,104][DEBUG] Iteration 144 finished
+[2020-09-23 13:00:25,456][DEBUG] Iteration 145 finished
+[2020-09-23 13:00:25,632][DEBUG] Iteration 146 finished
+[2020-09-23 13:00:26,342][DEBUG] Iteration 147 finished
+[2020-09-23 13:00:26,954][DEBUG] Iteration 148 finished
+[2020-09-23 13:00:27,381][DEBUG] Iteration 149 finished
+[2020-09-23 13:00:28,458][DEBUG] Iteration 150 finished
+[2020-09-23 13:00:32,947][DEBUG] Iteration 151 finished
+[2020-09-23 13:00:33,295][DEBUG] Iteration 152 finished
+[2020-09-23 13:00:33,469][DEBUG] Iteration 153 finished
+[2020-09-23 13:00:33,816][DEBUG] Iteration 154 finished
+[2020-09-23 13:00:34,338][DEBUG] Iteration 155 finished
+[2020-09-23 13:00:39,005][DEBUG] Iteration 156 finished
+[2020-09-23 13:00:39,703][DEBUG] Iteration 157 finished
+[2020-09-23 13:00:46,652][INFO] Optimized warnflag = 2
+[2020-09-23 13:00:46,652][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:00:46,652][INFO] Optimized f = -47071.3197423
+[2020-09-23 13:00:46,652][INFO] Optimized |df| = 1799.04354987
+[2020-09-23 13:00:46,762][INFO] Evaluated ELBO = 47071.3197423
+[2020-09-23 13:00:47,980][DEBUG] Iteration 1 finished
+[2020-09-23 13:00:48,103][DEBUG] Iteration 2 finished
+[2020-09-23 13:00:48,348][DEBUG] Iteration 3 finished
+[2020-09-23 13:00:49,454][DEBUG] Iteration 4 finished
+[2020-09-23 13:00:50,717][DEBUG] Iteration 5 finished
+[2020-09-23 13:00:53,995][DEBUG] Iteration 6 finished
+[2020-09-23 13:00:54,115][DEBUG] Iteration 7 finished
+[2020-09-23 13:00:54,832][DEBUG] Iteration 8 finished
+[2020-09-23 13:00:55,916][DEBUG] Iteration 9 finished
+[2020-09-23 13:00:57,362][DEBUG] Iteration 10 finished
+[2020-09-23 13:01:01,947][INFO] Optimized warnflag = 2
+[2020-09-23 13:01:01,947][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:01:01,947][INFO] Optimized f = -47082.9134891
+[2020-09-23 13:01:01,947][INFO] Optimized |df| = 13995.2090114
+[2020-09-23 13:01:02,058][INFO] Evaluated ELBO = 47082.9134891
+[2020-09-23 13:01:02,059][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 13:01:02,059][INFO] 0.2006307049947071
+[2020-09-23 13:01:02,059][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 13:01:02,059][INFO] [4.63563256 4.42044579 4.66203983 4.51744361 4.41833394 4.6359052 ]
+[2020-09-23 13:01:02,059][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 13:01:02,059][INFO] [17.66442686 13.17215205 11.33248096 16.53304376 12.85671678 11.33332838]
+[2020-09-23 13:01:02,059][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 13:01:02,060][INFO] [12.78410224 38.67250035 35.07581863]
+[2020-09-23 13:01:02,060][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 13:01:02,060][INFO] [24.46283031 41.34260875 15.29910747]
+[2020-09-23 13:01:02,060][INFO] lvm_beta_[0]
+[2020-09-23 13:01:02,060][INFO] 1041.4423678640644
+[2020-09-23 13:01:02,060][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 13:01:02,060][INFO] [5.78167888 5.19741143 4.81197652 6.05236448 5.16714185 4.69661082]
+[2020-09-23 13:01:02,061][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 13:01:02,061][INFO] [14.71580298 13.23558828 16.14653362 14.21645774 12.81146339 15.26472264]
+[2020-09-23 13:01:02,061][INFO] lvm_beta_[1]
+[2020-09-23 13:01:02,061][INFO] 756.7155080631418
+[2020-09-23 13:01:02,061][INFO] alpha
+[2020-09-23 13:01:02,061][INFO] [[0.15481057 1.01864909]
+ [1.01228177 0.07301841]]
+[2020-09-23 13:01:02,061][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 13:01:02,061][INFO] 1.1398802737317009
+[2020-09-23 13:01:05,079][INFO] Optimized warnflag = 2
+[2020-09-23 13:01:05,079][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:01:05,080][INFO] Optimized f = -47082.8437575
+[2020-09-23 13:01:05,080][INFO] Optimized |df| = 1112472879.44
+[2020-09-23 13:01:05,190][INFO] Evaluated ELBO = 47082.9134891
+[2020-09-23 13:01:07,738][INFO] Optimized warnflag = 2
+[2020-09-23 13:01:07,738][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:01:07,738][INFO] Optimized f = -47082.85835
+[2020-09-23 13:01:07,739][INFO] Optimized |df| = 13995.2090114
+[2020-09-23 13:01:07,849][INFO] Evaluated ELBO = 47082.9134891
+[2020-09-23 13:01:07,849][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 13:01:07,849][INFO] 0.2006307049947071
+[2020-09-23 13:01:07,850][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 13:01:07,850][INFO] [4.63563256 4.42044579 4.66203983 4.51744361 4.41833394 4.6359052 ]
+[2020-09-23 13:01:07,850][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 13:01:07,850][INFO] [17.66442686 13.17215205 11.33248096 16.53304376 12.85671678 11.33332838]
+[2020-09-23 13:01:07,850][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 13:01:07,850][INFO] [12.78410224 38.67250035 35.07581863]
+[2020-09-23 13:01:07,851][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 13:01:07,851][INFO] [24.46283031 41.34260875 15.29910747]
+[2020-09-23 13:01:07,851][INFO] lvm_beta_[0]
+[2020-09-23 13:01:07,851][INFO] 1041.4423678640644
+[2020-09-23 13:01:07,851][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 13:01:07,851][INFO] [5.78167888 5.19741143 4.81197652 6.05236448 5.16714185 4.69661082]
+[2020-09-23 13:01:07,851][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 13:01:07,851][INFO] [14.71580298 13.23558828 16.14653362 14.21645774 12.81146339 15.26472264]
+[2020-09-23 13:01:07,852][INFO] lvm_beta_[1]
+[2020-09-23 13:01:07,852][INFO] 756.7155080631418
+[2020-09-23 13:01:07,852][INFO] alpha
+[2020-09-23 13:01:07,852][INFO] [[0.15481057 1.01864909]
+ [1.01228177 0.07301841]]
+[2020-09-23 13:01:07,852][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 13:01:07,852][INFO] 1.1398802737317009
+[2020-09-23 13:01:07,963][INFO] Saving the latent space plots.
+[2020-09-23 13:01:08,595][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:08,620][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:08,620][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:08,777][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:08,800][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:08,800][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:08,957][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:08,981][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:08,981][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:09,138][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:09,161][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:09,161][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:09,202][INFO] Saving the latent space plots.
+[2020-09-23 13:01:09,819][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:09,844][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:09,844][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:09,986][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:10,008][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:10,008][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:10,151][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:10,176][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:10,176][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:10,319][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:10,342][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:10,343][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:10,382][INFO] Saving the latent space plots, latent vs generated.
+[2020-09-23 13:01:10,723][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:10,746][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:10,747][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:10,796][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:10,816][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:10,816][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:10,843][INFO] Saving the observed space plots, training vs generated.
+[2020-09-23 13:01:11,202][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:11,257][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:11,257][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:11,319][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:11,341][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:11,341][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:11,402][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:11,448][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:11,448][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:11,512][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:01:11,536][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:01:11,536][DEBUG] Writing TrueType font.
+[2020-09-23 13:01:11,563][INFO] Loading state from output_walk/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(2)-dyn(25)-lvm(35)-hold(1)/iter(2)-state.pkl...
+[2020-09-23 13:01:11,563][INFO] State loading failed.
+[2020-09-23 13:01:13,561][DEBUG] Iteration 1 finished
+[2020-09-23 13:01:13,733][DEBUG] Iteration 2 finished
+[2020-09-23 13:01:13,905][DEBUG] Iteration 3 finished
+[2020-09-23 13:01:14,078][DEBUG] Iteration 4 finished
+[2020-09-23 13:01:14,251][DEBUG] Iteration 5 finished
+[2020-09-23 13:01:14,423][DEBUG] Iteration 6 finished
+[2020-09-23 13:01:14,599][DEBUG] Iteration 7 finished
+[2020-09-23 13:01:14,776][DEBUG] Iteration 8 finished
+[2020-09-23 13:01:14,952][DEBUG] Iteration 9 finished
+[2020-09-23 13:01:15,128][DEBUG] Iteration 10 finished
+[2020-09-23 13:01:15,303][DEBUG] Iteration 11 finished
+[2020-09-23 13:01:15,478][DEBUG] Iteration 12 finished
+[2020-09-23 13:01:15,652][DEBUG] Iteration 13 finished
+[2020-09-23 13:01:15,827][DEBUG] Iteration 14 finished
+[2020-09-23 13:01:15,999][DEBUG] Iteration 15 finished
+[2020-09-23 13:01:16,173][DEBUG] Iteration 16 finished
+[2020-09-23 13:01:16,855][DEBUG] Iteration 17 finished
+[2020-09-23 13:01:17,025][DEBUG] Iteration 18 finished
+[2020-09-23 13:01:17,199][DEBUG] Iteration 19 finished
+[2020-09-23 13:01:17,368][DEBUG] Iteration 20 finished
+[2020-09-23 13:01:17,538][DEBUG] Iteration 21 finished
+[2020-09-23 13:01:17,710][DEBUG] Iteration 22 finished
+[2020-09-23 13:01:23,538][DEBUG] Iteration 23 finished
+[2020-09-23 13:01:30,386][INFO] Optimized warnflag = 2
+[2020-09-23 13:01:30,386][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:01:30,386][INFO] Optimized f = -47085.6584968
+[2020-09-23 13:01:30,386][INFO] Optimized |df| = 1501.08330575
+[2020-09-23 13:01:30,497][INFO] Evaluated ELBO = 47085.6584968
+[2020-09-23 13:01:31,449][DEBUG] Iteration 1 finished
+[2020-09-23 13:01:35,837][DEBUG] Iteration 2 finished
+[2020-09-23 13:01:36,194][DEBUG] Iteration 3 finished
+[2020-09-23 13:01:40,947][INFO] Optimized warnflag = 2
+[2020-09-23 13:01:40,947][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:01:40,955][INFO] Optimized f = -47086.0516288
+[2020-09-23 13:01:40,955][INFO] Optimized |df| = 9573.42285813
+[2020-09-23 13:01:41,066][INFO] Evaluated ELBO = 47086.0516288
+[2020-09-23 13:01:41,066][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 13:01:41,066][INFO] 0.21729191617977334
+[2020-09-23 13:01:41,066][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 13:01:41,066][INFO] [4.63573323 4.4205222  4.66212305 4.51753682 4.41840717 4.6359673 ]
+[2020-09-23 13:01:41,067][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 13:01:41,067][INFO] [17.66561375 13.17345778 11.33409364 16.53432029 12.85789085 11.33496503]
+[2020-09-23 13:01:41,067][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 13:01:41,067][INFO] [12.7938347  38.66607251 35.06999314]
+[2020-09-23 13:01:41,067][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 13:01:41,067][INFO] [24.45877123 41.35241403 15.31325984]
+[2020-09-23 13:01:41,068][INFO] lvm_beta_[0]
+[2020-09-23 13:01:41,068][INFO] 1041.4430710085953
+[2020-09-23 13:01:41,068][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 13:01:41,068][INFO] [5.78183853 5.19753739 4.8121994  6.05251647 5.16733103 4.69680378]
+[2020-09-23 13:01:41,068][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 13:01:41,068][INFO] [14.71674369 13.2366145  16.14739919 14.21722277 12.81235878 15.26539774]
+[2020-09-23 13:01:41,068][INFO] lvm_beta_[1]
+[2020-09-23 13:01:41,068][INFO] 756.7162263228731
+[2020-09-23 13:01:41,069][INFO] alpha
+[2020-09-23 13:01:41,069][INFO] [[0.15478519 1.01847948]
+ [1.01211345 0.07320437]]
+[2020-09-23 13:01:41,069][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 13:01:41,069][INFO] 1.1563839346513995
+[2020-09-23 13:01:43,796][DEBUG] Iteration 1 finished
+[2020-09-23 13:01:49,274][INFO] Optimized warnflag = 2
+[2020-09-23 13:01:49,274][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:01:49,274][INFO] Optimized f = -47086.0115759
+[2020-09-23 13:01:49,274][INFO] Optimized |df| = 830540828.984
+[2020-09-23 13:01:49,384][INFO] Evaluated ELBO = 47086.0709361
+[2020-09-23 13:01:50,210][DEBUG] Iteration 1 finished
+[2020-09-23 13:01:51,038][DEBUG] Iteration 2 finished
+[2020-09-23 13:01:54,467][DEBUG] Iteration 3 finished
+[2020-09-23 13:01:55,295][DEBUG] Iteration 4 finished
+[2020-09-23 13:01:56,002][DEBUG] Iteration 5 finished
+[2020-09-23 13:01:56,591][DEBUG] Iteration 6 finished
+[2020-09-23 13:01:59,547][DEBUG] Iteration 7 finished
+[2020-09-23 13:01:59,666][DEBUG] Iteration 8 finished
+[2020-09-23 13:02:00,609][DEBUG] Iteration 9 finished
+[2020-09-23 13:02:05,218][DEBUG] Iteration 10 finished
+[2020-09-23 13:02:06,046][DEBUG] Iteration 11 finished
+[2020-09-23 13:02:09,706][DEBUG] Iteration 12 finished
+[2020-09-23 13:02:14,428][INFO] Optimized warnflag = 2
+[2020-09-23 13:02:14,428][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:02:14,428][INFO] Optimized f = -47119.5871289
+[2020-09-23 13:02:14,428][INFO] Optimized |df| = 19151.0068588
+[2020-09-23 13:02:14,538][INFO] Evaluated ELBO = 47119.5871289
+[2020-09-23 13:02:14,538][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 13:02:14,538][INFO] 0.3089020178515552
+[2020-09-23 13:02:14,538][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 13:02:14,538][INFO] [4.68316784 4.4565643  4.70139262 4.5614424  4.4529396  4.66526441]
+[2020-09-23 13:02:14,538][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 13:02:14,538][INFO] [18.21516407 13.77582982 12.07696025 17.12477095 13.39988852 12.08817308]
+[2020-09-23 13:02:14,539][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 13:02:14,539][INFO] [19.30998    36.44735796 33.13414987]
+[2020-09-23 13:02:14,539][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 13:02:14,539][INFO] [23.44136538 45.76598616 13.79636317]
+[2020-09-23 13:02:14,539][INFO] lvm_beta_[0]
+[2020-09-23 13:02:14,539][INFO] 1041.552055531933
+[2020-09-23 13:02:14,539][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 13:02:14,539][INFO] [5.85660598 5.25652999 4.91646195 6.12375438 5.25585919 4.78711505]
+[2020-09-23 13:02:14,540][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 13:02:14,540][INFO] [15.15500411 13.71444898 16.5511924  14.57394815 13.22947004 15.58077746]
+[2020-09-23 13:02:14,540][INFO] lvm_beta_[1]
+[2020-09-23 13:02:14,540][INFO] 756.8336259627798
+[2020-09-23 13:02:14,540][INFO] alpha
+[2020-09-23 13:02:14,540][INFO] [[0.13682671 0.93946575]
+ [0.93344724 0.07022852]]
+[2020-09-23 13:02:14,540][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 13:02:14,541][INFO] 1.2311026951789834
+[2020-09-23 13:02:14,649][INFO] Saving the latent space plots.
+[2020-09-23 13:02:15,274][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:15,299][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:15,299][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:15,454][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:15,476][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:15,476][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:15,632][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:15,656][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:15,656][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:15,812][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:15,835][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:15,835][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:15,876][INFO] Saving the latent space plots.
+[2020-09-23 13:02:16,485][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:16,510][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:16,510][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:16,651][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:16,673][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:16,674][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:16,817][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:16,841][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:16,841][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:16,983][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:17,005][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:17,005][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:17,044][INFO] Saving the latent space plots, latent vs generated.
+[2020-09-23 13:02:17,375][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:17,398][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:17,398][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:17,446][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:17,466][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:17,466][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:17,493][INFO] Saving the observed space plots, training vs generated.
+[2020-09-23 13:02:17,845][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:17,899][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:17,899][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:17,961][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:17,982][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:17,982][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:19,223][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:19,271][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:19,271][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:19,334][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:19,358][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:19,358][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:19,385][INFO] Loading state from output_walk/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(2)-dyn(25)-lvm(35)-hold(1)/iter(3)-state.pkl...
+[2020-09-23 13:02:19,386][INFO] State loading failed.
+[2020-09-23 13:02:20,722][DEBUG] Iteration 1 finished
+[2020-09-23 13:02:21,749][DEBUG] Iteration 2 finished
+[2020-09-23 13:02:22,946][DEBUG] Iteration 3 finished
+[2020-09-23 13:02:29,787][INFO] Optimized warnflag = 2
+[2020-09-23 13:02:29,787][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:02:29,787][INFO] Optimized f = -47118.1678871
+[2020-09-23 13:02:29,787][INFO] Optimized |df| = 2181.21594635
+[2020-09-23 13:02:29,897][INFO] Evaluated ELBO = 47118.1678871
+[2020-09-23 13:02:32,656][INFO] Optimized warnflag = 2
+[2020-09-23 13:02:32,656][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:02:32,656][INFO] Optimized f = -47118.1678871
+[2020-09-23 13:02:32,656][INFO] Optimized |df| = 29011.1269311
+[2020-09-23 13:02:32,766][INFO] Evaluated ELBO = 47118.1678871
+[2020-09-23 13:02:32,766][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 13:02:32,766][INFO] 0.3089020178515552
+[2020-09-23 13:02:32,766][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 13:02:32,767][INFO] [4.68316784 4.4565643  4.70139262 4.5614424  4.4529396  4.66526441]
+[2020-09-23 13:02:32,767][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 13:02:32,767][INFO] [18.21516407 13.77582982 12.07696025 17.12477095 13.39988852 12.08817308]
+[2020-09-23 13:02:32,767][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 13:02:32,767][INFO] [19.30998    36.44735796 33.13414987]
+[2020-09-23 13:02:32,767][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 13:02:32,768][INFO] [23.44136538 45.76598616 13.79636317]
+[2020-09-23 13:02:32,768][INFO] lvm_beta_[0]
+[2020-09-23 13:02:32,768][INFO] 1041.552055531933
+[2020-09-23 13:02:32,768][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 13:02:32,768][INFO] [5.85660598 5.25652999 4.91646195 6.12375438 5.25585919 4.78711505]
+[2020-09-23 13:02:32,768][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 13:02:32,768][INFO] [15.15500411 13.71444898 16.5511924  14.57394815 13.22947004 15.58077746]
+[2020-09-23 13:02:32,769][INFO] lvm_beta_[1]
+[2020-09-23 13:02:32,769][INFO] 756.8336259627798
+[2020-09-23 13:02:32,769][INFO] alpha
+[2020-09-23 13:02:32,769][INFO] [[0.13682671 0.93946575]
+ [0.93344724 0.07022852]]
+[2020-09-23 13:02:32,769][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 13:02:32,769][INFO] 1.2311026951789834
+[2020-09-23 13:02:35,908][INFO] Optimized warnflag = 2
+[2020-09-23 13:02:35,908][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:02:35,908][INFO] Optimized f = -47118.1065908
+[2020-09-23 13:02:35,908][INFO] Optimized |df| = 7665645518.04
+[2020-09-23 13:02:36,020][INFO] Evaluated ELBO = 47118.1678871
+[2020-09-23 13:02:38,775][INFO] Optimized warnflag = 2
+[2020-09-23 13:02:38,775][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-09-23 13:02:38,775][INFO] Optimized f = -47118.1678871
+[2020-09-23 13:02:38,775][INFO] Optimized |df| = 29011.1269311
+[2020-09-23 13:02:38,887][INFO] Evaluated ELBO = 47118.1678871
+[2020-09-23 13:02:38,887][INFO] kernel_sigmasqrf_[0]
+[2020-09-23 13:02:38,887][INFO] 0.3089020178515552
+[2020-09-23 13:02:38,887][INFO] kernel_lambda_rbf_[0, 1]
+[2020-09-23 13:02:38,887][INFO] [4.68316784 4.4565643  4.70139262 4.5614424  4.4529396  4.66526441]
+[2020-09-23 13:02:38,887][INFO] kernel_lambda_rbf_[1, 1]
+[2020-09-23 13:02:38,887][INFO] [18.21516407 13.77582982 12.07696025 17.12477095 13.39988852 12.08817308]
+[2020-09-23 13:02:38,888][INFO] kernel_lambda_rbf_[0]
+[2020-09-23 13:02:38,888][INFO] [19.30998    36.44735796 33.13414987]
+[2020-09-23 13:02:38,888][INFO] kernel_lambda_rbf_[1]
+[2020-09-23 13:02:38,888][INFO] [23.44136538 45.76598616 13.79636317]
+[2020-09-23 13:02:38,888][INFO] lvm_beta_[0]
+[2020-09-23 13:02:38,888][INFO] 1041.552055531933
+[2020-09-23 13:02:38,888][INFO] kernel_lambda_rbf_[1, 0]
+[2020-09-23 13:02:38,889][INFO] [5.85660598 5.25652999 4.91646195 6.12375438 5.25585919 4.78711505]
+[2020-09-23 13:02:38,889][INFO] kernel_lambda_rbf_[0, 0]
+[2020-09-23 13:02:38,889][INFO] [15.15500411 13.71444898 16.5511924  14.57394815 13.22947004 15.58077746]
+[2020-09-23 13:02:38,889][INFO] lvm_beta_[1]
+[2020-09-23 13:02:38,889][INFO] 756.8336259627798
+[2020-09-23 13:02:38,889][INFO] alpha
+[2020-09-23 13:02:38,889][INFO] [[0.13682671 0.93946575]
+ [0.93344724 0.07022852]]
+[2020-09-23 13:02:38,890][INFO] kernel_sigmasqrf_[1]
+[2020-09-23 13:02:38,890][INFO] 1.2311026951789834
+[2020-09-23 13:02:39,001][INFO] Saving the latent space plots.
+[2020-09-23 13:02:39,632][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:39,658][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:39,658][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:39,817][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:39,841][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:39,841][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:40,000][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:40,025][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:40,026][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:40,184][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:40,208][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:40,208][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:40,250][INFO] Saving the latent space plots.
+[2020-09-23 13:02:40,868][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:40,893][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:40,894][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:41,036][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:41,059][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:41,059][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:41,202][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:41,227][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:41,227][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:41,371][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:41,395][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:41,395][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:41,435][INFO] Saving the latent space plots, latent vs generated.
+[2020-09-23 13:02:41,779][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:41,802][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:41,802][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:41,852][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:41,873][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:41,873][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:41,901][INFO] Saving the observed space plots, training vs generated.
+[2020-09-23 13:02:42,260][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:42,315][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:42,315][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:42,378][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:42,401][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:42,401][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:42,462][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:42,509][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:42,509][DEBUG] Writing TrueType font.
+[2020-09-23 13:02:42,574][DEBUG] Assigning font /F1 = u'/home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-09-23 13:02:42,599][DEBUG] Embedding font /home/sib/anaconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-09-23 13:02:42,599][DEBUG] Writing TrueType font.

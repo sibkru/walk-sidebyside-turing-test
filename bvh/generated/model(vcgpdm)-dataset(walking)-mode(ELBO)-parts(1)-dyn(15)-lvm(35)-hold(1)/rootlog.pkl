@@ -1,0 +1,491 @@
+[2020-08-08 10:55:54,808][INFO] Creating Theano variable pool
+[2020-08-08 10:55:54,810][INFO]  - theano.config.mode: Mode
+[2020-08-08 10:55:54,810][INFO]  - theano.config.optimizer: o4
+[2020-08-08 10:55:54,810][INFO]  - theano.config.floatX: float64
+[2020-08-08 10:55:54,810][INFO]  - theano.config.device: cpu
+[2020-08-08 10:55:54,810][INFO]  - theano.config.openmp: False
+[2020-08-08 10:55:54,811][INFO]  - theano.config.blas.ldflags: -L/home/sibelius/miniconda3/envs/vcgpdmb/lib -lmkl_core -lmkl_intel_thread -lmkl_rt -Wl,-rpath,/home/sibelius/miniconda3/envs/vcgpdmb/lib
+[2020-08-08 10:55:56,461][INFO] Initial ELBO = -27825.3220283
+[2020-08-08 10:55:59,557][INFO] Initial log-likelihood = -25736.235778
+[2020-08-08 10:56:00,403][INFO] Saving the latent space plots.
+[2020-08-08 10:56:01,637][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:01,661][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:01,662][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:01,716][INFO] Saving the latent space plots.
+[2020-08-08 10:56:02,043][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:02,067][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:02,068][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:02,116][INFO] Saving the latent space plots, latent vs generated.
+[2020-08-08 10:56:02,281][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:02,305][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:02,305][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:02,339][INFO] Saving the observed space plots, training vs generated.
+[2020-08-08 10:56:02,551][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:02,666][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:02,667][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:02,761][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:02,789][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:02,789][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:02,854][INFO] Loading state from output_walk3/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(1)-dyn(15)-lvm(35)-hold(1)/iter(8)-state.pkl...
+[2020-08-08 10:56:02,855][INFO] State loading failed.
+[2020-08-08 10:56:08,267][DEBUG] Iteration 1 finished
+[2020-08-08 10:56:10,465][INFO] Optimized warnflag = 2
+[2020-08-08 10:56:10,466][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:56:10,466][INFO] Optimized f = -19071.6878489
+[2020-08-08 10:56:10,466][INFO] Optimized |df| = 8484718659.87
+[2020-08-08 10:56:10,529][INFO] Evaluated ELBO = 19071.899497
+[2020-08-08 10:56:10,530][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:56:10,530][INFO] 0.8336680777930717
+[2020-08-08 10:56:10,530][INFO] dyn_aug_z_[0, 0]
+[2020-08-08 10:56:10,530][INFO] [[-1.20303609 -0.81768917  0.53954543  0.64657445  0.18071621 -0.50127095]
+ [-1.1185921   0.35826963 -0.93767171 -1.16133193  0.42182071 -0.81053468]
+ [-0.10241703  1.39979705  1.05054209  1.54369635  1.28774511  2.0752762 ]
+ [-0.00960522  0.84158792 -0.60654959  0.99568791  0.44032225 -1.41583149]
+ [-0.5649176  -1.53572759  0.28158217  0.86259995 -0.20159657 -0.7502456 ]
+ [ 1.23824835 -0.65179787  0.31331315  0.5317407  -1.3762895   0.31696385]
+ [ 2.62671861  1.46658826 -1.77422532  2.19776174  1.76909899 -1.16102675]
+ [ 0.31760751  0.69948004 -1.18201071 -0.0922031   0.94610469 -1.01590126]
+ [-1.54521671  1.1235044  -0.6230074  -1.97986417  1.40208454 -0.3237064 ]
+ [-0.6589128   0.82507554  0.74167894 -0.04184452 -0.33752926  1.02067244]
+ [ 1.76512675  0.60479717  0.24758654  1.81001957  0.84434544  0.39089146]
+ [ 0.45218811 -1.61306158 -1.71663983  0.86357291 -0.82071979 -1.88107681]
+ [-0.52065593  1.10004667 -0.88251804 -0.62827138  1.45699172 -0.5321788 ]
+ [ 0.03872795 -1.386951   -1.10310883 -0.36448921 -1.69657421 -0.97316861]
+ [-2.30279691  0.0515327   1.35339864 -2.45852989  0.32007013  1.45460317]]
+[2020-08-08 10:56:10,534][INFO] lvm_beta_[0]
+[2020-08-08 10:56:10,534][INFO] 1665.8177078549306
+[2020-08-08 10:56:10,534][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:56:10,535][INFO] [17.49384544 17.492508   17.49959236]
+[2020-08-08 10:56:10,535][INFO] lvm_aug_z_[0]
+[2020-08-08 10:56:10,535][INFO] [[-0.73388331  2.58334649  0.69228247]
+ [ 0.96002791 -2.62135613  0.9940208 ]
+ [ 0.34467186  1.27562838 -0.24781809]
+ [ 0.57102012 -0.20044182  1.76665939]
+ [ 0.59597446 -0.65420649 -1.51332435]
+ [ 1.88685411 -1.40309963 -0.64364162]
+ [-1.68673927 -2.76373216 -2.66395528]
+ [-0.77379203  1.85740081 -0.83443072]
+ [-2.87049893 -2.48530098  2.33169717]
+ [ 1.50802731 -1.46750919 -0.53827439]
+ [ 2.97383996 -0.95430309  0.65526319]
+ [ 1.43662488 -0.45580033 -2.63461195]
+ [ 1.51715388  2.79313731 -1.38431257]
+ [ 2.54545354  0.47352903  0.99891444]
+ [ 1.08827298  2.4731027   1.98102472]
+ [ 1.61640218 -0.90337556  0.38428528]
+ [ 0.31146159  0.01253976 -1.31615957]
+ [ 0.05212091 -2.74360831 -1.80912058]
+ [-2.08044747 -1.00357531  0.38697415]
+ [ 2.50890746 -0.55384737  1.4082419 ]
+ [ 0.83614986  1.35659449 -2.41079496]
+ [ 0.54288483 -0.33318377  1.355234  ]
+ [ 0.85905294  1.02807898  0.59273539]
+ [ 0.55148304  2.13386544 -0.96800321]
+ [-0.74046026 -1.85899756 -1.62523154]
+ [-0.46449713  0.04138435  0.51918984]
+ [-0.57121676  2.76901263  0.90909149]
+ [-0.0303946   0.23082597 -0.48071024]
+ [ 1.35956312  2.2258283   2.27074225]
+ [ 0.59750584  0.93515306 -0.78775532]
+ [-0.44027187  0.98098775 -0.91979468]
+ [ 1.44368723  0.76326082  2.18371873]
+ [ 1.07208712 -2.68206779  1.49688946]
+ [ 0.96176879  2.47979775 -1.28990136]
+ [-0.87982122  0.44756845 -0.18178655]]
+[2020-08-08 10:56:10,540][INFO] alpha
+[2020-08-08 10:56:10,540][INFO] [[0.83522616]]
+[2020-08-08 10:56:10,540][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:56:10,540][INFO] [11.35892375  8.75203874  7.10782508 11.37161391  8.84376942  6.52532401]
+[2020-08-08 10:56:17,160][DEBUG] Iteration 1 finished
+[2020-08-08 10:56:17,267][DEBUG] Iteration 2 finished
+[2020-08-08 10:56:17,369][DEBUG] Iteration 3 finished
+[2020-08-08 10:56:18,069][DEBUG] Iteration 4 finished
+[2020-08-08 10:56:18,172][DEBUG] Iteration 5 finished
+[2020-08-08 10:56:18,274][DEBUG] Iteration 6 finished
+[2020-08-08 10:56:18,375][DEBUG] Iteration 7 finished
+[2020-08-08 10:56:18,480][DEBUG] Iteration 8 finished
+[2020-08-08 10:56:18,585][DEBUG] Iteration 9 finished
+[2020-08-08 10:56:18,688][DEBUG] Iteration 10 finished
+[2020-08-08 10:56:18,788][DEBUG] Iteration 11 finished
+[2020-08-08 10:56:18,888][DEBUG] Iteration 12 finished
+[2020-08-08 10:56:18,990][DEBUG] Iteration 13 finished
+[2020-08-08 10:56:19,093][DEBUG] Iteration 14 finished
+[2020-08-08 10:56:19,198][DEBUG] Iteration 15 finished
+[2020-08-08 10:56:19,299][DEBUG] Iteration 16 finished
+[2020-08-08 10:56:19,400][DEBUG] Iteration 17 finished
+[2020-08-08 10:56:19,500][DEBUG] Iteration 18 finished
+[2020-08-08 10:56:19,603][DEBUG] Iteration 19 finished
+[2020-08-08 10:56:19,706][DEBUG] Iteration 20 finished
+[2020-08-08 10:56:19,808][DEBUG] Iteration 21 finished
+[2020-08-08 10:56:19,909][DEBUG] Iteration 22 finished
+[2020-08-08 10:56:20,010][DEBUG] Iteration 23 finished
+[2020-08-08 10:56:20,214][DEBUG] Iteration 24 finished
+[2020-08-08 10:56:20,319][DEBUG] Iteration 25 finished
+[2020-08-08 10:56:20,422][DEBUG] Iteration 26 finished
+[2020-08-08 10:56:20,526][DEBUG] Iteration 27 finished
+[2020-08-08 10:56:20,628][DEBUG] Iteration 28 finished
+[2020-08-08 10:56:21,229][DEBUG] Iteration 29 finished
+[2020-08-08 10:56:21,338][DEBUG] Iteration 30 finished
+[2020-08-08 10:56:21,440][DEBUG] Iteration 31 finished
+[2020-08-08 10:56:21,544][DEBUG] Iteration 32 finished
+[2020-08-08 10:56:21,647][DEBUG] Iteration 33 finished
+[2020-08-08 10:56:21,747][DEBUG] Iteration 34 finished
+[2020-08-08 10:56:21,852][DEBUG] Iteration 35 finished
+[2020-08-08 10:56:21,953][DEBUG] Iteration 36 finished
+[2020-08-08 10:56:22,055][DEBUG] Iteration 37 finished
+[2020-08-08 10:56:22,155][DEBUG] Iteration 38 finished
+[2020-08-08 10:56:22,257][DEBUG] Iteration 39 finished
+[2020-08-08 10:56:22,358][DEBUG] Iteration 40 finished
+[2020-08-08 10:56:22,459][DEBUG] Iteration 41 finished
+[2020-08-08 10:56:22,560][DEBUG] Iteration 42 finished
+[2020-08-08 10:56:22,664][DEBUG] Iteration 43 finished
+[2020-08-08 10:56:22,867][DEBUG] Iteration 44 finished
+[2020-08-08 10:56:22,971][DEBUG] Iteration 45 finished
+[2020-08-08 10:56:23,075][DEBUG] Iteration 46 finished
+[2020-08-08 10:56:23,376][DEBUG] Iteration 47 finished
+[2020-08-08 10:56:23,481][DEBUG] Iteration 48 finished
+[2020-08-08 10:56:23,582][DEBUG] Iteration 49 finished
+[2020-08-08 10:56:25,921][DEBUG] Iteration 50 finished
+[2020-08-08 10:56:26,125][DEBUG] Iteration 51 finished
+[2020-08-08 10:56:26,229][DEBUG] Iteration 52 finished
+[2020-08-08 10:56:26,330][DEBUG] Iteration 53 finished
+[2020-08-08 10:56:26,431][DEBUG] Iteration 54 finished
+[2020-08-08 10:56:26,533][DEBUG] Iteration 55 finished
+[2020-08-08 10:56:26,634][DEBUG] Iteration 56 finished
+[2020-08-08 10:56:27,441][DEBUG] Iteration 57 finished
+[2020-08-08 10:56:27,544][DEBUG] Iteration 58 finished
+[2020-08-08 10:56:27,648][DEBUG] Iteration 59 finished
+[2020-08-08 10:56:27,851][DEBUG] Iteration 60 finished
+[2020-08-08 10:56:27,951][DEBUG] Iteration 61 finished
+[2020-08-08 10:56:28,052][DEBUG] Iteration 62 finished
+[2020-08-08 10:56:28,156][DEBUG] Iteration 63 finished
+[2020-08-08 10:56:28,259][DEBUG] Iteration 64 finished
+[2020-08-08 10:56:28,362][DEBUG] Iteration 65 finished
+[2020-08-08 10:56:28,464][DEBUG] Iteration 66 finished
+[2020-08-08 10:56:28,566][DEBUG] Iteration 67 finished
+[2020-08-08 10:56:28,670][DEBUG] Iteration 68 finished
+[2020-08-08 10:56:28,774][DEBUG] Iteration 69 finished
+[2020-08-08 10:56:28,874][DEBUG] Iteration 70 finished
+[2020-08-08 10:56:28,976][DEBUG] Iteration 71 finished
+[2020-08-08 10:56:29,080][DEBUG] Iteration 72 finished
+[2020-08-08 10:56:29,181][DEBUG] Iteration 73 finished
+[2020-08-08 10:56:29,284][DEBUG] Iteration 74 finished
+[2020-08-08 10:56:29,487][DEBUG] Iteration 75 finished
+[2020-08-08 10:56:30,393][DEBUG] Iteration 76 finished
+[2020-08-08 10:56:30,896][DEBUG] Iteration 77 finished
+[2020-08-08 10:56:31,097][DEBUG] Iteration 78 finished
+[2020-08-08 10:56:34,242][DEBUG] Iteration 79 finished
+[2020-08-08 10:56:34,345][DEBUG] Iteration 80 finished
+[2020-08-08 10:56:34,754][DEBUG] Iteration 81 finished
+[2020-08-08 10:56:38,780][INFO] Optimized warnflag = 2
+[2020-08-08 10:56:38,780][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:56:38,780][INFO] Optimized f = -34600.3314063
+[2020-08-08 10:56:38,780][INFO] Optimized |df| = 14948.5316421
+[2020-08-08 10:56:38,843][INFO] Evaluated ELBO = 34600.3314063
+[2020-08-08 10:56:45,088][INFO] Optimized warnflag = 2
+[2020-08-08 10:56:45,089][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:56:45,089][INFO] Optimized f = -34600.3314063
+[2020-08-08 10:56:45,089][INFO] Optimized |df| = 59685.0169811
+[2020-08-08 10:56:45,159][INFO] Evaluated ELBO = 34600.3314063
+[2020-08-08 10:56:45,160][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:56:45,160][INFO] 0.8336680777930717
+[2020-08-08 10:56:45,160][INFO] lvm_beta_[0]
+[2020-08-08 10:56:45,160][INFO] 1665.8177078549306
+[2020-08-08 10:56:45,161][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:56:45,161][INFO] [17.49384544 17.492508   17.49959236]
+[2020-08-08 10:56:45,161][INFO] alpha
+[2020-08-08 10:56:45,162][INFO] [[0.83522616]]
+[2020-08-08 10:56:45,162][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:56:45,162][INFO] [11.35892375  8.75203874  7.10782508 11.37161391  8.84376942  6.52532401]
+[2020-08-08 10:56:52,013][INFO] Optimized warnflag = 2
+[2020-08-08 10:56:52,013][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:56:52,013][INFO] Optimized f = -34599.9990499
+[2020-08-08 10:56:52,014][INFO] Optimized |df| = 12760780923.9
+[2020-08-08 10:56:52,080][INFO] Evaluated ELBO = 34600.3314063
+[2020-08-08 10:56:53,909][INFO] Optimized warnflag = 2
+[2020-08-08 10:56:53,909][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:56:53,910][INFO] Optimized f = -34600.3314063
+[2020-08-08 10:56:53,910][INFO] Optimized |df| = 59685.0169811
+[2020-08-08 10:56:53,976][INFO] Evaluated ELBO = 34600.3314063
+[2020-08-08 10:56:53,977][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:56:53,977][INFO] 0.8336680777930717
+[2020-08-08 10:56:53,977][INFO] lvm_beta_[0]
+[2020-08-08 10:56:53,977][INFO] 1665.8177078549306
+[2020-08-08 10:56:53,977][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:56:53,977][INFO] [17.49384544 17.492508   17.49959236]
+[2020-08-08 10:56:53,978][INFO] alpha
+[2020-08-08 10:56:53,978][INFO] [[0.83522616]]
+[2020-08-08 10:56:53,979][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:56:53,979][INFO] [11.35892375  8.75203874  7.10782508 11.37161391  8.84376942  6.52532401]
+[2020-08-08 10:56:54,057][INFO] Saving the latent space plots.
+[2020-08-08 10:56:54,520][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:54,546][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:54,546][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:54,593][INFO] Saving the latent space plots.
+[2020-08-08 10:56:55,047][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:55,073][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:55,073][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:55,119][INFO] Saving the latent space plots, latent vs generated.
+[2020-08-08 10:56:55,270][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:55,292][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:55,292][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:55,321][INFO] Saving the observed space plots, training vs generated.
+[2020-08-08 10:56:55,592][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:55,720][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:55,721][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:55,806][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:56:55,828][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:56:55,828][DEBUG] Writing TrueType font.
+[2020-08-08 10:56:55,857][INFO] Loading state from output_walk3/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(1)-dyn(15)-lvm(35)-hold(1)/iter(9)-state.pkl...
+[2020-08-08 10:56:55,857][INFO] State loading failed.
+[2020-08-08 10:56:56,663][DEBUG] Iteration 1 finished
+[2020-08-08 10:57:00,993][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:00,993][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:00,994][INFO] Optimized f = -34552.843459
+[2020-08-08 10:57:00,994][INFO] Optimized |df| = 17620.418152
+[2020-08-08 10:57:01,060][INFO] Evaluated ELBO = 34552.843459
+[2020-08-08 10:57:01,910][DEBUG] Iteration 1 finished
+[2020-08-08 10:57:02,362][DEBUG] Iteration 2 finished
+[2020-08-08 10:57:02,451][DEBUG] Iteration 3 finished
+[2020-08-08 10:57:02,540][DEBUG] Iteration 4 finished
+[2020-08-08 10:57:03,605][DEBUG] Iteration 5 finished
+[2020-08-08 10:57:04,588][DEBUG] Iteration 6 finished
+[2020-08-08 10:57:08,228][DEBUG] Iteration 7 finished
+[2020-08-08 10:57:10,104][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:10,104][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:10,105][INFO] Optimized f = -34713.2484871
+[2020-08-08 10:57:10,105][INFO] Optimized |df| = 67943.0340766
+[2020-08-08 10:57:10,174][INFO] Evaluated ELBO = 34713.5306246
+[2020-08-08 10:57:10,175][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:57:10,175][INFO] 1.0280234574939406
+[2020-08-08 10:57:10,175][INFO] lvm_beta_[0]
+[2020-08-08 10:57:10,176][INFO] 1665.8121375014543
+[2020-08-08 10:57:10,176][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:57:10,176][INFO] [17.52690693 17.62570934 17.55685738]
+[2020-08-08 10:57:10,177][INFO] alpha
+[2020-08-08 10:57:10,177][INFO] [[0.8304659]]
+[2020-08-08 10:57:10,177][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:57:10,178][INFO] [11.36169491  8.75579276  7.11184281 11.37304786  8.84667885  6.52926336]
+[2020-08-08 10:57:11,949][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:11,949][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:11,949][INFO] Optimized f = -34713.3542461
+[2020-08-08 10:57:11,950][INFO] Optimized |df| = 2429794961.04
+[2020-08-08 10:57:12,017][INFO] Evaluated ELBO = 34713.5306246
+[2020-08-08 10:57:14,011][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:14,011][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:14,011][INFO] Optimized f = -34713.4045336
+[2020-08-08 10:57:14,011][INFO] Optimized |df| = 67943.0340766
+[2020-08-08 10:57:14,078][INFO] Evaluated ELBO = 34713.5306246
+[2020-08-08 10:57:14,079][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:57:14,079][INFO] 1.0280234574939406
+[2020-08-08 10:57:14,080][INFO] lvm_beta_[0]
+[2020-08-08 10:57:14,080][INFO] 1665.8121375014543
+[2020-08-08 10:57:14,080][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:57:14,080][INFO] [17.52690693 17.62570934 17.55685738]
+[2020-08-08 10:57:14,081][INFO] alpha
+[2020-08-08 10:57:14,081][INFO] [[0.8304659]]
+[2020-08-08 10:57:14,081][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:57:14,082][INFO] [11.36169491  8.75579276  7.11184281 11.37304786  8.84667885  6.52926336]
+[2020-08-08 10:57:14,161][INFO] Saving the latent space plots.
+[2020-08-08 10:57:14,633][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:14,661][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:14,661][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:14,712][INFO] Saving the latent space plots.
+[2020-08-08 10:57:15,165][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:15,192][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:15,193][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:15,240][INFO] Saving the latent space plots, latent vs generated.
+[2020-08-08 10:57:15,398][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:15,421][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:15,421][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:15,452][INFO] Saving the observed space plots, training vs generated.
+[2020-08-08 10:57:15,728][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:15,861][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:15,861][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:15,950][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:15,981][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:15,981][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:16,014][INFO] Loading state from output_walk3/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(1)-dyn(15)-lvm(35)-hold(1)/iter(10)-state.pkl...
+[2020-08-08 10:57:16,014][INFO] State loading failed.
+[2020-08-08 10:57:17,141][DEBUG] Iteration 1 finished
+[2020-08-08 10:57:17,249][DEBUG] Iteration 2 finished
+[2020-08-08 10:57:17,360][DEBUG] Iteration 3 finished
+[2020-08-08 10:57:17,470][DEBUG] Iteration 4 finished
+[2020-08-08 10:57:17,687][DEBUG] Iteration 5 finished
+[2020-08-08 10:57:18,341][DEBUG] Iteration 6 finished
+[2020-08-08 10:57:18,895][DEBUG] Iteration 7 finished
+[2020-08-08 10:57:20,187][DEBUG] Iteration 8 finished
+[2020-08-08 10:57:23,122][DEBUG] Iteration 9 finished
+[2020-08-08 10:57:23,231][DEBUG] Iteration 10 finished
+[2020-08-08 10:57:23,342][DEBUG] Iteration 11 finished
+[2020-08-08 10:57:23,452][DEBUG] Iteration 12 finished
+[2020-08-08 10:57:23,562][DEBUG] Iteration 13 finished
+[2020-08-08 10:57:23,672][DEBUG] Iteration 14 finished
+[2020-08-08 10:57:23,781][DEBUG] Iteration 15 finished
+[2020-08-08 10:57:23,891][DEBUG] Iteration 16 finished
+[2020-08-08 10:57:24,001][DEBUG] Iteration 17 finished
+[2020-08-08 10:57:24,112][DEBUG] Iteration 18 finished
+[2020-08-08 10:57:24,223][DEBUG] Iteration 19 finished
+[2020-08-08 10:57:24,333][DEBUG] Iteration 20 finished
+[2020-08-08 10:57:24,882][DEBUG] Iteration 21 finished
+[2020-08-08 10:57:25,868][DEBUG] Iteration 22 finished
+[2020-08-08 10:57:26,200][DEBUG] Iteration 23 finished
+[2020-08-08 10:57:26,311][DEBUG] Iteration 24 finished
+[2020-08-08 10:57:26,530][DEBUG] Iteration 25 finished
+[2020-08-08 10:57:26,848][DEBUG] Iteration 26 finished
+[2020-08-08 10:57:26,957][DEBUG] Iteration 27 finished
+[2020-08-08 10:57:27,067][DEBUG] Iteration 28 finished
+[2020-08-08 10:57:27,175][DEBUG] Iteration 29 finished
+[2020-08-08 10:57:31,572][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:31,572][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:31,572][INFO] Optimized f = -35006.3577413
+[2020-08-08 10:57:31,573][INFO] Optimized |df| = 17674.4591305
+[2020-08-08 10:57:31,639][INFO] Evaluated ELBO = 35006.5875817
+[2020-08-08 10:57:33,661][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:33,662][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:33,662][INFO] Optimized f = -35006.5875817
+[2020-08-08 10:57:33,662][INFO] Optimized |df| = 89873.7473264
+[2020-08-08 10:57:33,731][INFO] Evaluated ELBO = 35006.5875817
+[2020-08-08 10:57:33,732][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:57:33,732][INFO] 1.0280234574939406
+[2020-08-08 10:57:33,732][INFO] lvm_beta_[0]
+[2020-08-08 10:57:33,732][INFO] 1665.8121375014543
+[2020-08-08 10:57:33,732][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:57:33,733][INFO] [17.52690693 17.62570934 17.55685738]
+[2020-08-08 10:57:33,733][INFO] alpha
+[2020-08-08 10:57:33,734][INFO] [[0.8304659]]
+[2020-08-08 10:57:33,734][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:57:33,734][INFO] [11.36169491  8.75579276  7.11184281 11.37304786  8.84667885  6.52926336]
+[2020-08-08 10:57:35,497][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:35,497][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:35,498][INFO] Optimized f = -35006.2245667
+[2020-08-08 10:57:35,498][INFO] Optimized |df| = 23605177406.6
+[2020-08-08 10:57:35,565][INFO] Evaluated ELBO = 35006.5875817
+[2020-08-08 10:57:37,569][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:37,569][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:37,569][INFO] Optimized f = -35006.5875817
+[2020-08-08 10:57:37,570][INFO] Optimized |df| = 89873.7473264
+[2020-08-08 10:57:37,637][INFO] Evaluated ELBO = 35006.5875817
+[2020-08-08 10:57:37,638][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:57:37,638][INFO] 1.0280234574939406
+[2020-08-08 10:57:37,638][INFO] lvm_beta_[0]
+[2020-08-08 10:57:37,638][INFO] 1665.8121375014543
+[2020-08-08 10:57:37,639][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:57:37,639][INFO] [17.52690693 17.62570934 17.55685738]
+[2020-08-08 10:57:37,640][INFO] alpha
+[2020-08-08 10:57:37,640][INFO] [[0.8304659]]
+[2020-08-08 10:57:37,640][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:57:37,640][INFO] [11.36169491  8.75579276  7.11184281 11.37304786  8.84667885  6.52926336]
+[2020-08-08 10:57:37,720][INFO] Saving the latent space plots.
+[2020-08-08 10:57:38,194][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:38,222][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:38,222][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:38,273][INFO] Saving the latent space plots.
+[2020-08-08 10:57:38,731][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:38,759][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:38,759][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:38,807][INFO] Saving the latent space plots, latent vs generated.
+[2020-08-08 10:57:38,971][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:38,995][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:38,995][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:39,027][INFO] Saving the observed space plots, training vs generated.
+[2020-08-08 10:57:39,306][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:39,435][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:39,435][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:39,525][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:57:39,556][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:57:39,556][DEBUG] Writing TrueType font.
+[2020-08-08 10:57:39,590][INFO] Loading state from output_walk3/model(vcgpdm)-dataset(walking)-mode(ELBO)-parts(1)-dyn(15)-lvm(35)-hold(1)/iter(11)-state.pkl...
+[2020-08-08 10:57:39,590][INFO] State loading failed.
+[2020-08-08 10:57:39,958][DEBUG] Iteration 1 finished
+[2020-08-08 10:57:40,025][DEBUG] Iteration 2 finished
+[2020-08-08 10:57:40,134][DEBUG] Iteration 3 finished
+[2020-08-08 10:57:40,464][DEBUG] Iteration 4 finished
+[2020-08-08 10:57:40,575][DEBUG] Iteration 5 finished
+[2020-08-08 10:57:40,687][DEBUG] Iteration 6 finished
+[2020-08-08 10:57:40,796][DEBUG] Iteration 7 finished
+[2020-08-08 10:57:40,908][DEBUG] Iteration 8 finished
+[2020-08-08 10:57:41,019][DEBUG] Iteration 9 finished
+[2020-08-08 10:57:41,118][DEBUG] Iteration 10 finished
+[2020-08-08 10:57:41,230][DEBUG] Iteration 11 finished
+[2020-08-08 10:57:41,347][DEBUG] Iteration 12 finished
+[2020-08-08 10:57:43,220][DEBUG] Iteration 13 finished
+[2020-08-08 10:57:44,871][DEBUG] Iteration 14 finished
+[2020-08-08 10:57:47,579][DEBUG] Iteration 15 finished
+[2020-08-08 10:57:47,797][DEBUG] Iteration 16 finished
+[2020-08-08 10:57:47,911][DEBUG] Iteration 17 finished
+[2020-08-08 10:57:48,021][DEBUG] Iteration 18 finished
+[2020-08-08 10:57:48,131][DEBUG] Iteration 19 finished
+[2020-08-08 10:57:48,242][DEBUG] Iteration 20 finished
+[2020-08-08 10:57:48,353][DEBUG] Iteration 21 finished
+[2020-08-08 10:57:48,463][DEBUG] Iteration 22 finished
+[2020-08-08 10:57:49,127][DEBUG] Iteration 23 finished
+[2020-08-08 10:57:49,240][DEBUG] Iteration 24 finished
+[2020-08-08 10:57:49,350][DEBUG] Iteration 25 finished
+[2020-08-08 10:57:49,463][DEBUG] Iteration 26 finished
+[2020-08-08 10:57:49,575][DEBUG] Iteration 27 finished
+[2020-08-08 10:57:49,686][DEBUG] Iteration 28 finished
+[2020-08-08 10:57:49,797][DEBUG] Iteration 29 finished
+[2020-08-08 10:57:49,908][DEBUG] Iteration 30 finished
+[2020-08-08 10:57:50,023][DEBUG] Iteration 31 finished
+[2020-08-08 10:57:50,451][DEBUG] Iteration 32 finished
+[2020-08-08 10:57:52,534][DEBUG] Iteration 33 finished
+[2020-08-08 10:57:56,912][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:56,913][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:56,913][INFO] Optimized f = -35324.3384797
+[2020-08-08 10:57:56,913][INFO] Optimized |df| = 12671.9648368
+[2020-08-08 10:57:56,982][INFO] Evaluated ELBO = 35324.3384797
+[2020-08-08 10:57:58,970][INFO] Optimized warnflag = 2
+[2020-08-08 10:57:58,971][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:57:58,971][INFO] Optimized f = -35324.3384797
+[2020-08-08 10:57:58,971][INFO] Optimized |df| = 28017.645395
+[2020-08-08 10:57:59,039][INFO] Evaluated ELBO = 35324.3384797
+[2020-08-08 10:57:59,040][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:57:59,041][INFO] 1.0280234574939406
+[2020-08-08 10:57:59,041][INFO] lvm_beta_[0]
+[2020-08-08 10:57:59,041][INFO] 1665.8121375014543
+[2020-08-08 10:57:59,041][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:57:59,041][INFO] [17.52690693 17.62570934 17.55685738]
+[2020-08-08 10:57:59,042][INFO] alpha
+[2020-08-08 10:57:59,042][INFO] [[0.8304659]]
+[2020-08-08 10:57:59,043][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:57:59,043][INFO] [11.36169491  8.75579276  7.11184281 11.37304786  8.84667885  6.52926336]
+[2020-08-08 10:58:00,755][INFO] Optimized warnflag = 2
+[2020-08-08 10:58:00,756][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:58:00,756][INFO] Optimized f = -35324.0175957
+[2020-08-08 10:58:00,756][INFO] Optimized |df| = 16524171550.4
+[2020-08-08 10:58:00,822][INFO] Evaluated ELBO = 35324.3384797
+[2020-08-08 10:58:02,807][INFO] Optimized warnflag = 2
+[2020-08-08 10:58:02,807][INFO] Optimized task message = ABNORMAL_TERMINATION_IN_LNSRCH
+[2020-08-08 10:58:02,807][INFO] Optimized f = -35324.3384797
+[2020-08-08 10:58:02,808][INFO] Optimized |df| = 28017.645395
+[2020-08-08 10:58:02,875][INFO] Evaluated ELBO = 35324.3384797
+[2020-08-08 10:58:02,875][INFO] kernel_sigmasqrf_[0]
+[2020-08-08 10:58:02,876][INFO] 1.0280234574939406
+[2020-08-08 10:58:02,876][INFO] lvm_beta_[0]
+[2020-08-08 10:58:02,876][INFO] 1665.8121375014543
+[2020-08-08 10:58:02,876][INFO] kernel_lambda_rbf_[0]
+[2020-08-08 10:58:02,876][INFO] [17.52690693 17.62570934 17.55685738]
+[2020-08-08 10:58:02,877][INFO] alpha
+[2020-08-08 10:58:02,877][INFO] [[0.8304659]]
+[2020-08-08 10:58:02,878][INFO] kernel_lambda_rbf_[0, 0]
+[2020-08-08 10:58:02,878][INFO] [11.36169491  8.75579276  7.11184281 11.37304786  8.84667885  6.52926336]
+[2020-08-08 10:58:02,956][INFO] Saving the latent space plots.
+[2020-08-08 10:58:03,429][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:58:03,457][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:58:03,457][DEBUG] Writing TrueType font.
+[2020-08-08 10:58:03,508][INFO] Saving the latent space plots.
+[2020-08-08 10:58:03,841][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:58:03,869][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:58:03,869][DEBUG] Writing TrueType font.
+[2020-08-08 10:58:03,917][INFO] Saving the latent space plots, latent vs generated.
+[2020-08-08 10:58:04,078][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:58:04,101][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:58:04,101][DEBUG] Writing TrueType font.
+[2020-08-08 10:58:04,132][INFO] Saving the observed space plots, training vs generated.
+[2020-08-08 10:58:04,337][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:58:04,446][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:58:04,446][DEBUG] Writing TrueType font.
+[2020-08-08 10:58:04,537][DEBUG] Assigning font /F1 = u'/home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+[2020-08-08 10:58:04,564][DEBUG] Embedding font /home/sibelius/miniconda3/envs/vcgpdmb/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+[2020-08-08 10:58:04,564][DEBUG] Writing TrueType font.
