@@ -132,9 +132,9 @@ def convert_bvh(fn_in, fn_out='path.txt'):
     pairs.remove(('spine1', 'left_manubrium'))
 
     joints, pelvis = bvh.read_bvh_motion(fn_in)
-    for j in range(len(joints)):
+    '''for j in range(len(joints)):
         for i in range(0,9):
-            joints[j][i] = joints[j][i+9] 
+            joints[j][i] = joints[j][i+9] '''
     motion = np.concatenate((pelvis, joints), axis=1)
 
     mp = MotionProcesser(skeleton, motion)
@@ -174,12 +174,12 @@ def convert_bvh(fn_in, fn_out='path.txt'):
 if __name__ == '__main__':
     from glob import glob
     import os
-    print("test")
-    recompute = True
-    test = glob('/home/sib/OneDrive/Studium/Psychologie/Bachelor Arbeit/bvh/generated/*/*.bvh')
+    bvh_files = glob('/home/sib/git/walk-sidebyside-turing-test/bvh/mocap/newMocapBVHs/*.bvh')
     fn =  "bvh/mocap.bvh"
     out_fn = fn.split('.')[0]+'-lines-attention-check.txt'
-    convert_bvh(fn, out_fn)
+    for i in range(len(bvh_files)):
+        out_fn = '/home/sib/git/walk-sidebyside-turing-test/bvh/mocap/newMocapBVHs/clip' + str(i) + '.txt'
+        convert_bvh(bvh_files[i], out_fn)
     """ for fn in glob('bvh/generated/*/*.bvh'):
         out_fn = fn.split('.')[0]+'-lines.txt'
         if recompute:
