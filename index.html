@@ -29,7 +29,7 @@
     var trainRight = 'bvh/generated/model(dmp)-dataset(walking)-npsi(10)-hold(0)/final-lines.txt'
 
 
-    var trials = trials_csv_to_dict('trials.csv');
+    var trials = trials_csv_to_dict('new_trials.csv');
     
     var trial_sample = jsPsych.randomization.sampleWithoutReplacement(trials, number_of_trials);
     
@@ -42,7 +42,7 @@
 
 
     // Sampling the attention checks
-    var checks = attention_check_csv_to_dict('attention_check_trials.csv');
+    var checks = attention_check_csv_to_dict('new_attention_check_trials.csv');
     var check_sample = jsPsych.randomization.sampleWithoutReplacement(checks, number_of_checks);
     trial_sample = trial_sample.concat(check_sample);
   /* * * * * * * * * * * * * * *
