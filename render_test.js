@@ -1,4 +1,4 @@
-function main(lines, side, then) {
+function main(lines, side, fromLeft, then) {
     console.log(lines[0])
     var canvas = document.querySelector(side);
     var gl = canvas.getContext('webgl');
@@ -41,7 +41,7 @@ function main(lines, side, then) {
         now *= 0.001;
         const deltaTime = Math.max(0, now - then);
         t_idx = parseInt(deltaTime * 24)
-        drawScene(gl, programInfo, buffers, t_idx, lines);
+        drawScene(gl, programInfo, buffers, t_idx, lines, fromLeft);
         if (t_idx < lines.length-1) {
             requestAnimationFrame(render);
         }
@@ -50,7 +50,7 @@ function main(lines, side, then) {
     requestAnimationFrame(render);
 }
 
-function drawScene(gl, programInfo, position, t_idx, lines){
+function drawScene(gl, programInfo, position, t_idx, lines, fromLeft){
     gl.clearColor(0.5, 0.5, 0.5, 1.0);  // Clear to black, fully opaque
     gl.clearDepth(1.0);                 // Clear everything
     gl.enable(gl.DEPTH_TEST);           // Enable depth testing
@@ -105,20 +105,15 @@ function drawScene(gl, programInfo, position, t_idx, lines){
     // start drawing the square.
     mat4.translate(modelViewMatrix,     // destination matrix
                    modelViewMatrix,     // matrix to translate
-                   [-10, -7, -40]);  // amount to translate [-10, -7, -40])
-
-    mat4.rotate(modelViewMatrix,
-        modelViewMatrix,
-        0.5,
-        [0, 1, 0]); // wenn man die zweite Zahl auf 1 oder -1 setzt, kann man das Bild spiegeln
-    mat4.rotate(modelViewMatrix,
-        modelViewMatrix,
-        0.15,
-        [1, 0, 1]);
-    mat4.rotate(modelViewMatrix,
-        modelViewMatrix,
-        0,
-        [0, -1, 0]);
+                   [10, -10, -80]);  // amount to translate [-10, -7, -40])
+    
+    if (fromLeft) {
+        mat4.rotate(modelViewMatrix, modelViewMatrix, 0.5, [0, 1, 0]); 
+         mat4.translate(modelViewMatrix, modelViewMatrix, [-20, 0, -20]);
+    } else {
+        mat4.rotate(modelViewMatrix, modelViewMatrix, 0.5, [0, -1, 0]); 
+    }
+    
     gl.uniformMatrix4fv(
       programInfo.uniformLocations.modelViewMatrix,
       false,

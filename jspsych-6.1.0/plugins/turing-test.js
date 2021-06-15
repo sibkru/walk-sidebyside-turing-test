@@ -24,6 +24,7 @@ jsPsych.plugins['turing-test'] = (function() {
         var then = performance.now()*0.001;
         var left_lines  = trial_txt_to_array(trial.stimulus.left);
         var right_lines = trial_txt_to_array(trial.stimulus.right);
+        var fromLeft = trial.stimulus.fromLeft;
         console.log(trial.stimulus)
         // implement same trial length
        
@@ -42,10 +43,10 @@ jsPsych.plugins['turing-test'] = (function() {
         
         var T = Math.max(left_lines.length, right_lines.length) / 24 * 1000;
 
-        console.log(left_lines, right_lines);
+        //console.log(left_lines, right_lines);
 
-        main(left_lines, '#glcanvas_l', then);
-        main(right_lines, '#glcanvas_r', then);
+        main(left_lines, '#glcanvas_l', fromLeft, then);
+        main(right_lines, '#glcanvas_r', fromLeft, then);
         jsPsych.pluginAPI.setTimeout(function() {
             jsPsych.finishTrial();
         }, T);

@@ -33,7 +33,6 @@
     
     var trial_sample = jsPsych.randomization.sampleWithoutReplacement(trials, number_of_trials);
     
-    var number_of_trials = trial_sample.length;
     var counter = 1;   
     var sona_subject_id = GetURLParameter('subject')
         if (!subject_id) { var subject_id = jsPsych.randomization.randomID(15);} 
@@ -88,9 +87,11 @@
                 var left = list[2];
                 
                 if (left == "mocap_left") {
-                    output.push({data: {position: 0, left: data_natural, right: data_model, att_check: false}}); 
+                    output.push({data: {position: 0, left: data_natural, right: data_model, att_check: false, fromLeft: false}}); 
+                    output.push({data: {position: 0, left: data_natural, right: data_model, att_check: false, fromLeft: true}}); 
                 } else if ("model_left"){
-                    output.push({data: {position: 1, left: data_model, right: data_natural, att_check: false}});
+                    output.push({data: {position: 1, left: data_model, right: data_natural, att_check: false, fromLeft: false}});
+                    output.push({data: {position: 1, left: data_model, right: data_natural, att_check: false, fromLeft: true}});
                 }       
             }
         return output;
@@ -107,9 +108,11 @@
                 var left = list[2];
                 
                 if (left == "mocap_left") {
-                    output.push({data: {position: 0, left: data_natural, right: data_model, att_check: true}}); 
+                    output.push({data: {position: 0, left: data_natural, right: data_model, att_check: true, fromLeft: false}}); 
+                    output.push({data: {position: 0, left: data_natural, right: data_model, att_check: true, fromLeft: true}}); 
                 } else if ("model_left"){
-                    output.push({data: {position: 1, left: data_model, right: data_natural, att_check: true}});
+                    output.push({data: {position: 1, left: data_model, right: data_natural, att_check: true, fromLeft: false}});
+                    output.push({data: {position: 1, left: data_model, right: data_natural, att_check: true, fromLeft: false}});
                 }       
             }
         return output;
