@@ -1,8 +1,8 @@
-jsPsych.plugins['turing-test'] = (function() {
+jsPsych.plugins['training'] = (function() {
     var plugin = {};
 
     plugin.info = {
-        name: 'turing-test',
+        name: 'training',
         parameters: {
             stimulus: {
                 type: jsPsych.plugins.parameterType.STRING,
