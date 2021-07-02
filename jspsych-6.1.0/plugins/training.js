@@ -1,8 +1,8 @@
-jsPsych.plugins['training'] = (function() {
+jsPsych.plugins['turing-test'] = (function() {
     var plugin = {};
 
     plugin.info = {
-        name: 'training',
+        name: 'turing-test',
         parameters: {
             stimulus: {
                 type: jsPsych.plugins.parameterType.STRING,
@@ -24,10 +24,12 @@ jsPsych.plugins['training'] = (function() {
         var then = performance.now()*0.001;
         var left_lines  = trial_txt_to_array(trainLeft);
         var right_lines = trial_txt_to_array(trainRight);
-        
+        var fromLeft = trial.stimulus.fromLeft;
+        console.log(trial.stimulus)
         // implement same trial length
        
         function slice_frames(){
+            // last item in the array is empty
             var l = left_lines.length - 1;
             var r = right_lines.length - 1;
             if (l > r){
@@ -38,10 +40,13 @@ jsPsych.plugins['training'] = (function() {
                 right_lines = right_lines.slice(0, l);
         }};
         slice_frames();
+        
         var T = Math.max(left_lines.length, right_lines.length) / 24 * 1000;
-        console.log(left_lines, right_lines);
-        main(left_lines, '#glcanvas_l', then); // corrected right to left
-        main(right_lines, '#glcanvas_r', then);
+
+        //console.log(left_lines, right_lines);
+
+        main(left_lines, '#glcanvas_l', fromLeft, then);
+        main(right_lines, '#glcanvas_r', fromLeft, then);
         jsPsych.pluginAPI.setTimeout(function() {
             jsPsych.finishTrial();
         }, T);
