@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div style="text-align: left;">
+            <h1>Einverständniserklärung</h1>
+            
+                <h2>Online-Validierung von Movement Primitive Modellvergleichen anhand von Aufnahmen des menschlichen Gangs</h2>
+                <form method="post" id="form1" action="write_consent.php">
+                <p>Ich, Frau/ Herr    <input type="text" name="name" required>
+                bin über das Ziel und den Ablauf der Bewegungsaufzeichnungen für die Studie “ Online-Validierung von Movement Primitive Modellvergleichen anhand von Aufnahmen des menschlichen Gangs“ informiert worden. Ich habe alle Informationen vollständig gelesen und verstanden. Sofern ich Fragen zu dieser Studie hatte, wurden sie vom Studienleiter vollständig und zu meiner Zufriedenheit beantwortet.
+                Ich hatte genügend Zeit für eine Entscheidung und bin bereit, an der o.g. Studie teilzunehmen. Ich weiß, dass die Teilnahme an der Studie freiwillig ist und ich die Teilnahme jederzeit ohne Angaben von Gründen beenden kann. Im Falle des Widerrufs entstehen mir keine Kosten, Verpflichtungen oder andere Nachteile.
+                Das Online-Experiment wird insgesamt 15min dauern.
+            </p>
+            <p>
+                Mir ist bekannt, dass die erhobenen Daten ohne Nennung meines Namens vollständig anonymisiert gespeichert werden. Eine Löschung meiner Daten nach Ende der Bewegungsaufzeichnung ist deshalb nicht möglich. Ich bin damit einverstanden, dass meine anonymisierten Rohdaten als Teil einer wissenschaftlichen Publikation veröffentlicht werden.
+                Eine Ausfertigung der Teilnehmerinformation über die Untersuchung habe ich erhalten. Die Teilnehmerinformation ist Teil dieser Einwilligungserklärung.
+            </p>
+            <p>
+                Ich bin daran interessiert, etwas über die Ergebnisse der Studie zu erfahren, und bitte hierzu um Übersendung entsprechender Informationen. Zu diesem Zweck gebe ich meine Email-Adresse an.
+                Email-Adresse (optional) <input type="email" name="email">
+            
+            <p>Bei Fragen oder Anliegen kann ich mich an die folgenden Personen wenden:</p>
+            <table>
+                <tr>
+            <th>Studienleiter</th>
+            <th>Projektleiter</th>
+            <th>Datenschutzbeauftragte/r</th>
+                </tr>
+                <tr>
+            <td>Sibelius Kruse</td>
+            <td>Prof. Dr. Dominik Endres</td>
+            <td>Name</td>
+                </tr>
+                <tr>
+            <td>Gutenbergstr. 18</td>
+            <td>Gutenbergstraße 18</td>
+            <td>Gutenbergstr. 18</td>
+                </tr>
+                <tr>
+            <td>35032 Marburg</td>
+            <td>35032 Marburg</td>
+            <td>35032 Marburg</td>
+                </tr>
+                <tr>
+            <td>Telefon: 06421-2823841</td>
+            <td>Telefon: 06421-2823818</td>
+            <td>Telefon:</td>
+                </tr>
+                <tr>
+            <td>krusesi@students.uni-marburg.de</td>
+            <td>dominik.endres@uni-marburg.de</td>
+            <td>Email-Adresse</td>
+                </tr>
+            </table>
+            
+            <p>Als Studienleiter verpflichte ich mich hiermit, die Bedingungen zur Teilnahme an der Studie sowie zum Datenschutz einzuhalten.</p>
+            <img src="sign.png" width="200"/> 
+            <p>(Unterschrift Studienleiter, auszufüllen vom Studienleiter)</p>
+            
+            <p>
+                <input type="checkbox" id="consent_checkbox" required/>
+                I understood the information and want to participate in the study.
+              </p>
+              <input type="submit" name="submit" id="start">Start Experiment</button>
+            </div>
+            </form>
+            <br>
+            <br>
+            <br>
+        </div>   
+        <script src="" async defer>
+             function saveData(name, data){
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'write_consent.php'); // 'write_data.php' is the path to the php file described above.
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send(JSON.stringify({filename: name, filedata: data}));
+            }
+
+            function save() {
+                var name = document.getElementsByName("name").value;
+                var formData = JSON.stringify($("#form1").serializeArray());
+                saveData(name, formData);
+            }
+        </script>
+    </body>
+</html>

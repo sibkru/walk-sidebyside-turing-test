@@ -7,6 +7,7 @@
     <script src="jspsych-6.1.0/jspsych.js"></script>
     <script src="jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
     <script src="jspsych-6.1.0/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych-6.1.0/plugins/jspsych-external-html.js"></script>
     <script src="jspsych-6.1.0/plugins/turing-test.js"></script>
     <script src="render_test.js"></script>
     <script src="jspsych-6.1.0/plugins/jspsych-instructions.js"></script>
@@ -44,6 +45,51 @@
     var checks = attention_check_csv_to_dict('new_attention_check_trials.csv');
     var check_sample = jsPsych.randomization.sampleWithoutReplacement(checks, number_of_checks);
     trial_sample = trial_sample.concat(check_sample);
+
+    var check_information = function(elem) {
+        if (document.getElementById('consent_checkbox').checked) {
+            return true;
+        }
+        else {
+            if (langEng) {
+                alert("If you wish to participate, you must check the box next to the statement 'I read and understood the information.'");
+            } else {
+                alert("Wenn Sie an der Studie teilnehmen möchten, bestätigen Sie bitte mit der Checkbox, dass sie diese Informationen gelesen und verstanden haben.");
+            }
+            
+            return false;
+        }
+        return false;
+    };
+
+        var check_consent = function(elem) {
+        if (document.getElementById('consent_checkbox').checked) {
+            var name = document.getElementsByName("name").value;
+            var email = document.getElementsByName("email").value;
+            var data = {
+                "name": name,
+                "email": email
+            };
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'write_consent.php'); // 'write_data.php' is the path to the php file described above.
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({filename: name, filedata: data}));
+            return true;
+        }
+        else {
+            if (langEng) {
+                alert("If you wish to participate, you must check the box next to the statement 'I understand and agree to participate in the study.'");
+            } else {
+                alert("Wenn Sie an der Studie teilnehmen möchten, bestätigen Sie bitte mit der Checkbox, dass sie diese Informationen verstanden haben und an der Studie teilnehmen möchten.");
+            }
+            
+            return false;
+        }
+        return false;
+    };
+
+
+
   /* * * * * * * * * * * * * * *
    * Functions for the stimuli * 
    * * * * * * * * * * * * * * */  
@@ -117,33 +163,6 @@
             }
         return output;
         }
-/*
-        function arrcheck_to_trials() {
-            var arr = create_check()
-            var output = [];
-            for (var i = 0; i < arr.length - 1; ++i){
-                var data_model = arr[i].fn;
-                var data_natural = arr[i].fn_train;
-                //console.log(data_model);
-                var position_natural = rand_att_check();
-               
-                const trial = {
-                    data_natural: data_natural,
-                    data_model: data_model,
-                    position_natural: position_natural
-                } 
-                if (trial.position_natural == "left") {
-                    output.push({data: {position: 0, left: trial.data_natural, right: trial.data_model, att_check: true}});
-                    
-                } else {
-                    output.push({data: {position: 1, left: trial.data_model, right: trial.data_natural, att_check: true}});
-                   
-                }       
-            }
-        return output;
-        }
-
-    */    
        
 
     function saveData(name, data){
@@ -200,11 +219,38 @@
         button_label_previous: 'Zurück',
         button_label_next: 'Weiter'
     };
+
+    var informationGer = {
+        type: 'external-html',
+        url: 'information-for-participants-de.html',
+        cont_btn: "start",
+        check_fn: check_information
+    };
+    var informationEn = {
+        type: 'external-html',
+        url: 'information-for-participants-en.html',
+        cont_btn: "start",
+        check_fn: check_information
+    };
+
+    var informedConsetGer = {
+        type: 'external-html',
+            url: 'informed-consent-de.html',
+            cont_btn: "start",
+            check_fn: check_consent
+    };
+
+    var informedConsetEn = {
+        type: 'external-html',
+            url: 'informed-consent-en.html',
+            cont_btn: "start",
+            check_fn: check_consent
+    };
    
 
     // Needed because instruction type cannot handle 'stimulus' but only 'pages'. It is used because instructions have clickable pages.
     var ifEng = {
-        timeline: [instructionsEng],
+        timeline: [informationEn, informedConsetEn, instructionsEng],
         conditional_function: function(){
             if(langEng){
                 return true;
@@ -214,7 +260,7 @@
             }
     }}
     var ifGer = {
-        timeline: [instructionsGer],
+        timeline: [informationGer, informedConsetGer, instructionsGer],
         conditional_function: function(){
             if(!langEng){
             return true;

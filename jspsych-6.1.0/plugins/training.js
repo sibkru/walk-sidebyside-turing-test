@@ -25,7 +25,6 @@ jsPsych.plugins['training'] = (function() {
         var left_lines  = trial_txt_to_array(trainLeft);
         var right_lines = trial_txt_to_array(trainRight);
         var fromLeft = trial.stimulus.fromLeft;
-        console.log(trial.stimulus)
         // implement same trial length
        
         function slice_frames(){
